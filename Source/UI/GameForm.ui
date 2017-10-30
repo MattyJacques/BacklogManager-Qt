@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameForm</class>
+ <widget class="QDialog" name="GameForm">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>211</width>
+    <height>261</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>211</width>
+    <height>261</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>211</width>
+    <height>261</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Game</string>
+  </property>
+  <widget class="QDialogButtonBox" name="GameForm_ButtonBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>191</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="GameForm_NameLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Game Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="GameForm_StatusLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Played Status:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="GameForm_PlayStatus">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>160</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="currentText">
+    <string/>
+   </property>
+   <property name="currentIndex">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="GameForm_OwnedCheck">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>191</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Owned</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="GameForm_PlatformsGroup">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>191</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Platforms</string>
+   </property>
+   <widget class="QCheckBox" name="GameForm_PCCheck">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>70</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PC</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GameForm_PS4Check">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>91</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Playstation 4</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GameForm_PS3Check">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>91</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Playstation 3</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="GameForm_PSVitaCheck">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Playstation Vita</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="GameForm_GameName">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>GameForm_GameName</tabstop>
+  <tabstop>GameForm_PCCheck</tabstop>
+  <tabstop>GameForm_PS4Check</tabstop>
+  <tabstop>GameForm_PS3Check</tabstop>
+  <tabstop>GameForm_PSVitaCheck</tabstop>
+  <tabstop>GameForm_PlayStatus</tabstop>
+  <tabstop>GameForm_OwnedCheck</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>GameForm_ButtonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>GameForm</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>GameForm_ButtonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>GameForm</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

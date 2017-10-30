@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="BacklogManagerForm">
+    <file>Resources/Add Game.png</file>
+    <file>Resources/ApplicationIcon.ico</file>
+    <file>Resources/Delete Game.png</file>
+    <file>Resources/Edit Game.png</file>
+    <file>Resources/Filter Games.png</file>
+    <file>Resources/Game Stats.png</file>
+  </qresource>
+</RCC>

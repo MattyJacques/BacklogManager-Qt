@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StatsForm</class>
+ <widget class="QDialog" name="StatsForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>236</width>
+    <height>890</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>236</width>
+    <height>890</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>236</width>
+    <height>890</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Game Stats</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="StatsForm_PCStats">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>PC</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="StatsForm_PCNotPlayedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Not Played:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="StatsForm_PCNotPlayed">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="StatsForm_PCPlayedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Played:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="StatsForm_PCPlayed">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="StatsForm_PCCompleteLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Complete:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="StatsForm_PCComplete">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="StatsForm_PCAbandonedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Abandoned:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="StatsForm_PCAbandoned">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="StatsForm_PCPercentLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Done Percentage:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="StatsForm_PCPercent">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="StatsForm_PS4Stats">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Playstation 4</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="StatsForm_PS4NotPlayedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Not Played:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="StatsForm_PS4NotPlayed">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="StatsForm_PS4PlayedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Played:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="StatsForm_PS4Played">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="StatsForm_PS4CompleteLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Complete:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="StatsForm_PS4Complete">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="StatsForm_PS4AbandonedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Abandoned:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="StatsForm_PS4Abandoned">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="StatsForm_PS4PercentLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Done Percentage:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="StatsForm_PS4Percent">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="StatsForm_PS3Stats">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Playstation 3</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QLabel" name="StatsForm_PS3NotPlayedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Not Played:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="StatsForm_PS3NotPlayed">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="StatsForm_PS3PlayedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Played:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="StatsForm_PS3Played">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="StatsForm_PS3CompleteLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Complete:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="StatsForm_PS3Complete">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="StatsForm_PS3AbandonedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Abandoned:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="StatsForm_PS3Abandoned">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="StatsForm_PS3PercentLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Done Percentage:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="StatsForm_PS3Percent">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="StatsForm_PSVitaStats">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Playstation Vita</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QLabel" name="StatsForm_PSVitaNotPlayedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Not Played:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="StatsForm_PSVitaNotPlayed">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="StatsForm_PSVitaPlayedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Played:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="StatsForm_PSVitaPlayed">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="StatsForm_PSVitaCompleteLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Complete:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="StatsForm_PSVitaComplete">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="StatsForm_PSVitaAbandonedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Abandoned:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="StatsForm_PSVitaAbandoned">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="StatsForm_PSVitaPercentLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Done Percentage:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="StatsForm_PSVitaPercent">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="StatsForm_TotalStats">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Total</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_5">
+      <item row="0" column="0">
+       <widget class="QLabel" name="StatsForm_TotalNotPlayedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Not Played:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="StatsForm_TotalNotPlayed">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="StatsForm_TotalPlayedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Played:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="StatsForm_TotalPlayed">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="StatsForm_TotalCompleteLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Complete:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="StatsForm_TotalComplete">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="StatsForm_TotalAbandonedLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Abandoned:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="StatsForm_TotalAbandoned">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="StatsForm_TotalPercentLbl">
+        <property name="minimumSize">
+         <size>
+          <width>121</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Done Percentage:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="StatsForm_TotalPercent">
+        <property name="minimumSize">
+         <size>
+          <width>71</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Empty</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

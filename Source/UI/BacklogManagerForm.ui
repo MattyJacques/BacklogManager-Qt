@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BacklogManagerForm</class>
+ <widget class="QMainWindow" name="BacklogManagerForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>831</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>831</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>831</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Backlog Manager</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QGroupBox" name="BacklogManagerForm_NextGameGroup">
+      <property name="minimumSize">
+       <size>
+        <width>801</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>801</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Next Game</string>
+      </property>
+      <widget class="QLabel" name="BacklogManagerForm_NextGameTitle">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>331</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="BacklogManagerForm_NextGamePlatform">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>20</y>
+         <width>181</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="BacklogManagerForm_NextGameStatus">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>20</y>
+         <width>111</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="BacklogManagerForm_NextGameChooseButton">
+       <property name="geometry">
+        <rect>
+         <x>700</x>
+         <y>20</y>
+         <width>81</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Choose Again</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="BacklogManagerForm_GameListGroup">
+      <property name="title">
+       <string>Game List</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QTableWidget" name="BacklogManagerForm_GameList">
+         <property name="contextMenuPolicy">
+          <enum>Qt::ActionsContextMenu</enum>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="selectionMode">
+          <enum>QAbstractItemView::ExtendedSelection</enum>
+         </property>
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="columnCount">
+          <number>5</number>
+         </property>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>110</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Game Name</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Platform</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Play Status</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Owned</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Added</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>831</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSetBackupPath"/>
+    <addaction name="actionImportCSV"/>
+    <addaction name="actionClose"/>
+   </widget>
+   <widget class="QMenu" name="menuFilters">
+    <property name="title">
+     <string>Filters</string>
+    </property>
+    <widget class="QMenu" name="menuPlayed_Status">
+     <property name="title">
+      <string>Played Status</string>
+     </property>
+     <addaction name="actionFilterNotPlayed"/>
+     <addaction name="actionFilterPlayed"/>
+     <addaction name="actionFilterComplete"/>
+     <addaction name="actionFilterAbandoned"/>
+    </widget>
+    <widget class="QMenu" name="menuPlatform">
+     <property name="title">
+      <string>Platform</string>
+     </property>
+     <addaction name="actionFilterPC"/>
+     <addaction name="actionFilterPS4"/>
+     <addaction name="actionFilterPS3"/>
+     <addaction name="actionFilterPSVita"/>
+    </widget>
+    <widget class="QMenu" name="menuOwned_Status">
+     <property name="title">
+      <string>Owned Status</string>
+     </property>
+     <addaction name="actionFilterOwned"/>
+     <addaction name="actionFilterNotOwned"/>
+    </widget>
+    <addaction name="menuPlayed_Status"/>
+    <addaction name="menuPlatform"/>
+    <addaction name="menuOwned_Status"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuFilters"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionAddGame"/>
+   <addaction name="actionEditGame"/>
+   <addaction name="actionDeleteGame"/>
+   <addaction name="separator"/>
+   <addaction name="actionShowStats"/>
+   <addaction name="actionFilterGames"/>
+  </widget>
+  <action name="actionAddGame">
+   <property name="icon">
+    <iconset resource="BacklogManagerForm.qrc">
+     <normaloff>:/BacklogManagerForm/Resources/Add Game.png</normaloff>:/BacklogManagerForm/Resources/Add Game.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add Game</string>
+   </property>
+   <property name="toolTip">
+    <string>Add a game to the collection</string>
+   </property>
+  </action>
+  <action name="actionEditGame">
+   <property name="icon">
+    <iconset resource="BacklogManagerForm.qrc">
+     <normaloff>:/BacklogManagerForm/Resources/Edit Game.png</normaloff>:/BacklogManagerForm/Resources/Edit Game.png</iconset>
+   </property>
+   <property name="text">
+    <string>Edit Game</string>
+   </property>
+   <property name="toolTip">
+    <string>Edit a game in the collection</string>
+   </property>
+  </action>
+  <action name="actionDeleteGame">
+   <property name="icon">
+    <iconset resource="BacklogManagerForm.qrc">
+     <normaloff>:/BacklogManagerForm/Resources/Delete Game.png</normaloff>:/BacklogManagerForm/Resources/Delete Game.png</iconset>
+   </property>
+   <property name="text">
+    <string>Delete Game</string>
+   </property>
+   <property name="toolTip">
+    <string>Delete a game from the collection</string>
+   </property>
+  </action>
+  <action name="actionImportCSV">
+   <property name="text">
+    <string>Import .CSV</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="actionFilterNotPlayed">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Not Played</string>
+   </property>
+  </action>
+  <action name="actionFilterPlayed">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Played</string>
+   </property>
+  </action>
+  <action name="actionFilterComplete">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Complete</string>
+   </property>
+  </action>
+  <action name="actionFilterAbandoned">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Abandoned</string>
+   </property>
+  </action>
+  <action name="actionFilterPC">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>PC</string>
+   </property>
+  </action>
+  <action name="actionFilterPS4">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Playstation 4</string>
+   </property>
+  </action>
+  <action name="actionFilterPS3">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Playstation 3</string>
+   </property>
+  </action>
+  <action name="actionFilterPSVita">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Playstation Vita</string>
+   </property>
+  </action>
+  <action name="actionFilterOwned">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Owned</string>
+   </property>
+  </action>
+  <action name="actionFilterNotOwned">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Not Owned</string>
+   </property>
+  </action>
+  <action name="actionShowStats">
+   <property name="icon">
+    <iconset resource="BacklogManagerForm.qrc">
+     <normaloff>:/BacklogManagerForm/Resources/Game Stats.png</normaloff>:/BacklogManagerForm/Resources/Game Stats.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show Stats</string>
+   </property>
+   <property name="toolTip">
+    <string>Show the stats dialog</string>
+   </property>
+  </action>
+  <action name="actionSetBackupPath">
+   <property name="text">
+    <string>Set Backup Path</string>
+   </property>
+   <property name="toolTip">
+    <string>Backups are processed on application close</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionFilterGames">
+   <property name="icon">
+    <iconset resource="BacklogManagerForm.qrc">
+     <normaloff>:/BacklogManagerForm/Resources/Filter Games.png</normaloff>:/BacklogManagerForm/Resources/Filter Games.png</iconset>
+   </property>
+   <property name="text">
+    <string>actionFilterGames</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="BacklogManagerForm.qrc"/>
+ </resources>
+ <connections/>
+</ui>

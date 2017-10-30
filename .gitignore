@@ -9,6 +9,7 @@
 *.so
 *.dll
 *.dylib
+*.obj
 
 # Qt-es
 
@@ -20,7 +21,6 @@
 *.qbs.user.*
 *.moc
 moc_*.cpp
-moc_*.h
 qrc_*.cpp
 ui_*.h
 Makefile*
@@ -35,5 +35,68 @@ Makefile*
 *.qmlproject.user.*
 
 # QtCtreator CMake
-CMakeLists.txt.user*
+CMakeLists.txt.user
 
+# Visual Studio
+.vs
+
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+/debug
+/release
+
+# Builds
+*.exe
+*.ilk
+*.log
+*.pdb
+/x64/Debug/BacklogManager.tlog

@@ -21,7 +21,6 @@
 *.qbs.user.*
 *.moc
 moc_*.cpp
-qrc_*.cpp
 Makefile*
 *build-*
 

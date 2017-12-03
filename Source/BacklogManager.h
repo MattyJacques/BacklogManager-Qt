@@ -61,6 +61,9 @@ private:
   // Generate the next game to fill the next game fields with
   void GenerateNextGame();
 
+  // Update the UI on the main form with the data from the chosen next game
+  void UpdateNextGameUI();
+
   // Add game statuses to combo box
   void FillStatusCombo();
 

@@ -44,7 +44,15 @@ BacklogManager::BacklogManager(QWidget *parent)
 
   if (m_GameTable->rowCount() != 0)
   { // If we have no games, don't generate next game
-    GenerateNextGame();
+    m_GameCollection->LoadNextGame();
+    if (!m_GameCollection->HasNextGame())
+    {
+      GenerateNextGame();
+    }
+    else
+    {
+      UpdateNextGameUI();
+    }
   }
 
 } // BacklogManager()
@@ -155,7 +163,16 @@ void BacklogManager::OnImportCSV()
 void BacklogManager::GenerateNextGame()
 { // Generate the next game to fill the next game fields with
 
-  Game nextGame = m_GameCollection->ChooseNextGame();
+  m_GameCollection->ChooseNextGame();
+  UpdateNextGameUI();
+
+} // GenerateNextGame()
+
+
+void BacklogManager::UpdateNextGameUI()
+{ // Update the UI on the main form with the data from the chosen next game
+
+  Game nextGame = m_GameCollection->GetNextGame();
   // Set the fields
   m_UI.BacklogManagerForm_NextGameTitle->setText(nextGame.m_GameName);
   m_PlayStatus->setCurrentText(Utilities::GetStatusString(nextGame.m_Status));
@@ -163,7 +180,7 @@ void BacklogManager::GenerateNextGame()
   QString platformString = Utilities::GetPlatformString(nextGame);
   m_UI.BacklogManagerForm_NextGamePlatform->setText(platformString);
 
-} // GenerateNextGame()
+} // UpdateNextGameUI()
 
 
 void BacklogManager::FillStatusCombo()

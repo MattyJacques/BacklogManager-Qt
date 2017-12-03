@@ -185,20 +185,14 @@ bool GameCollection::HasNextGame() const
 } // HasNextGame()
 
 
-const Game& GameCollection::ChooseNextGame()
+void GameCollection::ChooseNextGame()
 { // Generate random game to play
 
   // Get random number index +1/-1 to include 0
   srand(time(NULL));
   int nextIndex = INVALIDINDEX;
-
-  QString gameName = m_GameDB.GetSetting(NEXTGAMEKEY);
   
-  if (!gameName.isEmpty())
-  {
-    m_NextGame = &m_GameCollection[GetVectorIndex(gameName)];
-  }
-  else if (m_GameTable->rowCount() != 0)
+  if (m_GameTable->rowCount() != 0)
   {
     do
     {
@@ -209,9 +203,24 @@ const Game& GameCollection::ChooseNextGame()
     m_NextGame = &m_GameCollection[nextIndex];
     m_GameDB.UpdateSetting(NEXTGAMEKEY, m_NextGame->m_GameName);
   }
-
-  return *m_NextGame;
 } // ChooseNextGame()
+
+
+const Game& GameCollection::GetNextGame() const
+{ // Return chosen next game
+  return *m_NextGame;
+} // GetNextGame()
+
+
+void GameCollection::LoadNextGame()
+{ // Load the next game from the DB
+
+  QString gameName = m_GameDB.GetSetting(NEXTGAMEKEY);
+  if (!gameName.isEmpty())
+  {
+    m_NextGame = &m_GameCollection[GetVectorIndex(gameName)];
+  }
+} // LoadNextGame()
 
 
 const QFileInfo& GameCollection::GetGameDBPath()

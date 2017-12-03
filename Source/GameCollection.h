@@ -41,7 +41,9 @@ public:
   
   // Game Storage
   bool HasNextGame() const;                      // Return NextGame != null
-  const Game& ChooseNextGame();                  // Generate random game to play
+  void ChooseNextGame();                         // Generate random game to play
+  const Game& GetNextGame() const;               // Return chosen next game
+  void LoadNextGame();                           // Load the next game from the DB
   const QFileInfo& GetGameDBPath();              // Return the path to the DB
   
   // UI

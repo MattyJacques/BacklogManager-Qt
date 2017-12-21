@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'GameForm.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.3
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -101,16 +101,16 @@ public:
 
     void retranslateUi(QDialog *GameForm)
     {
-        GameForm->setWindowTitle(QApplication::translate("GameForm", "Game", Q_NULLPTR));
-        GameForm_NameLabel->setText(QApplication::translate("GameForm", "Game Name:", Q_NULLPTR));
-        GameForm_StatusLabel->setText(QApplication::translate("GameForm", "Played Status:", Q_NULLPTR));
+        GameForm->setWindowTitle(QApplication::translate("GameForm", "Game", nullptr));
+        GameForm_NameLabel->setText(QApplication::translate("GameForm", "Game Name:", nullptr));
+        GameForm_StatusLabel->setText(QApplication::translate("GameForm", "Played Status:", nullptr));
         GameForm_PlayStatus->setCurrentText(QString());
-        GameForm_OwnedCheck->setText(QApplication::translate("GameForm", "Owned", Q_NULLPTR));
-        GameForm_PlatformsGroup->setTitle(QApplication::translate("GameForm", "Platforms", Q_NULLPTR));
-        GameForm_PCCheck->setText(QApplication::translate("GameForm", "PC", Q_NULLPTR));
-        GameForm_PS4Check->setText(QApplication::translate("GameForm", "Playstation 4", Q_NULLPTR));
-        GameForm_PS3Check->setText(QApplication::translate("GameForm", "Playstation 3", Q_NULLPTR));
-        GameForm_PSVitaCheck->setText(QApplication::translate("GameForm", "Playstation Vita", Q_NULLPTR));
+        GameForm_OwnedCheck->setText(QApplication::translate("GameForm", "Owned", nullptr));
+        GameForm_PlatformsGroup->setTitle(QApplication::translate("GameForm", "Platforms", nullptr));
+        GameForm_PCCheck->setText(QApplication::translate("GameForm", "PC", nullptr));
+        GameForm_PS4Check->setText(QApplication::translate("GameForm", "Playstation 4", nullptr));
+        GameForm_PS3Check->setText(QApplication::translate("GameForm", "Playstation 3", nullptr));
+        GameForm_PSVitaCheck->setText(QApplication::translate("GameForm", "Playstation Vita", nullptr));
     } // retranslateUi
 
 };

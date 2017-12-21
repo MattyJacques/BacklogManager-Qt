@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'FilterForm.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.3
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -145,20 +145,20 @@ public:
 
     void retranslateUi(QDialog *FilterForm)
     {
-        FilterForm->setWindowTitle(QApplication::translate("FilterForm", "Dialog", Q_NULLPTR));
-        FilterForm_PlayStatusGrp->setTitle(QApplication::translate("FilterForm", "Play Status", Q_NULLPTR));
-        FilterForm_NotPlayed->setText(QApplication::translate("FilterForm", "Show Not Played", Q_NULLPTR));
-        FilterForm_Played->setText(QApplication::translate("FilterForm", "Show Played", Q_NULLPTR));
-        FilterForm_Complete->setText(QApplication::translate("FilterForm", "Show Complete", Q_NULLPTR));
-        FilterForm_Abandoned->setText(QApplication::translate("FilterForm", "Show Abandoned", Q_NULLPTR));
-        FilterForm_PlatformGrp->setTitle(QApplication::translate("FilterForm", "Platform", Q_NULLPTR));
-        FilterForm_PC->setText(QApplication::translate("FilterForm", "Show PC", Q_NULLPTR));
-        FilterForm_PS4->setText(QApplication::translate("FilterForm", "Show Playstation 4", Q_NULLPTR));
-        FilterForm_PS3->setText(QApplication::translate("FilterForm", "Show Playstation 3", Q_NULLPTR));
-        FilterForm_PSVita->setText(QApplication::translate("FilterForm", "Show Playstation Vita", Q_NULLPTR));
-        FilterForm_OwnedGrp->setTitle(QApplication::translate("FilterForm", "Owned Status", Q_NULLPTR));
-        FilterForm_Owned->setText(QApplication::translate("FilterForm", "Show Owned", Q_NULLPTR));
-        FilterForm_NotOwned->setText(QApplication::translate("FilterForm", "Show Not Owned", Q_NULLPTR));
+        FilterForm->setWindowTitle(QApplication::translate("FilterForm", "Dialog", nullptr));
+        FilterForm_PlayStatusGrp->setTitle(QApplication::translate("FilterForm", "Play Status", nullptr));
+        FilterForm_NotPlayed->setText(QApplication::translate("FilterForm", "Show Not Played", nullptr));
+        FilterForm_Played->setText(QApplication::translate("FilterForm", "Show Played", nullptr));
+        FilterForm_Complete->setText(QApplication::translate("FilterForm", "Show Complete", nullptr));
+        FilterForm_Abandoned->setText(QApplication::translate("FilterForm", "Show Abandoned", nullptr));
+        FilterForm_PlatformGrp->setTitle(QApplication::translate("FilterForm", "Platform", nullptr));
+        FilterForm_PC->setText(QApplication::translate("FilterForm", "Show PC", nullptr));
+        FilterForm_PS4->setText(QApplication::translate("FilterForm", "Show Playstation 4", nullptr));
+        FilterForm_PS3->setText(QApplication::translate("FilterForm", "Show Playstation 3", nullptr));
+        FilterForm_PSVita->setText(QApplication::translate("FilterForm", "Show Playstation Vita", nullptr));
+        FilterForm_OwnedGrp->setTitle(QApplication::translate("FilterForm", "Owned Status", nullptr));
+        FilterForm_Owned->setText(QApplication::translate("FilterForm", "Show Owned", nullptr));
+        FilterForm_NotOwned->setText(QApplication::translate("FilterForm", "Show Not Owned", nullptr));
     } // retranslateUi
 
 };

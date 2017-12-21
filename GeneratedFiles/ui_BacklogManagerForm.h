@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'BacklogManagerForm.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.3
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -259,63 +259,63 @@ public:
 
     void retranslateUi(QMainWindow *BacklogManagerForm)
     {
-        BacklogManagerForm->setWindowTitle(QApplication::translate("BacklogManagerForm", "Backlog Manager", Q_NULLPTR));
-        actionAddGame->setText(QApplication::translate("BacklogManagerForm", "Add Game", Q_NULLPTR));
+        BacklogManagerForm->setWindowTitle(QApplication::translate("BacklogManagerForm", "Backlog Manager", nullptr));
+        actionAddGame->setText(QApplication::translate("BacklogManagerForm", "Add Game", nullptr));
 #ifndef QT_NO_TOOLTIP
-        actionAddGame->setToolTip(QApplication::translate("BacklogManagerForm", "Add a game to the collection", Q_NULLPTR));
+        actionAddGame->setToolTip(QApplication::translate("BacklogManagerForm", "Add a game to the collection", nullptr));
 #endif // QT_NO_TOOLTIP
-        actionEditGame->setText(QApplication::translate("BacklogManagerForm", "Edit Game", Q_NULLPTR));
+        actionEditGame->setText(QApplication::translate("BacklogManagerForm", "Edit Game", nullptr));
 #ifndef QT_NO_TOOLTIP
-        actionEditGame->setToolTip(QApplication::translate("BacklogManagerForm", "Edit a game in the collection", Q_NULLPTR));
+        actionEditGame->setToolTip(QApplication::translate("BacklogManagerForm", "Edit a game in the collection", nullptr));
 #endif // QT_NO_TOOLTIP
-        actionDeleteGame->setText(QApplication::translate("BacklogManagerForm", "Delete Game", Q_NULLPTR));
+        actionDeleteGame->setText(QApplication::translate("BacklogManagerForm", "Delete Game", nullptr));
 #ifndef QT_NO_TOOLTIP
-        actionDeleteGame->setToolTip(QApplication::translate("BacklogManagerForm", "Delete a game from the collection", Q_NULLPTR));
+        actionDeleteGame->setToolTip(QApplication::translate("BacklogManagerForm", "Delete a game from the collection", nullptr));
 #endif // QT_NO_TOOLTIP
-        actionImportCSV->setText(QApplication::translate("BacklogManagerForm", "Import .CSV", Q_NULLPTR));
-        actionClose->setText(QApplication::translate("BacklogManagerForm", "Close", Q_NULLPTR));
-        actionFilterNotPlayed->setText(QApplication::translate("BacklogManagerForm", "Not Played", Q_NULLPTR));
-        actionFilterPlayed->setText(QApplication::translate("BacklogManagerForm", "Played", Q_NULLPTR));
-        actionFilterComplete->setText(QApplication::translate("BacklogManagerForm", "Complete", Q_NULLPTR));
-        actionFilterAbandoned->setText(QApplication::translate("BacklogManagerForm", "Abandoned", Q_NULLPTR));
-        actionFilterPC->setText(QApplication::translate("BacklogManagerForm", "PC", Q_NULLPTR));
-        actionFilterPS4->setText(QApplication::translate("BacklogManagerForm", "Playstation 4", Q_NULLPTR));
-        actionFilterPS3->setText(QApplication::translate("BacklogManagerForm", "Playstation 3", Q_NULLPTR));
-        actionFilterPSVita->setText(QApplication::translate("BacklogManagerForm", "Playstation Vita", Q_NULLPTR));
-        actionFilterOwned->setText(QApplication::translate("BacklogManagerForm", "Owned", Q_NULLPTR));
-        actionFilterNotOwned->setText(QApplication::translate("BacklogManagerForm", "Not Owned", Q_NULLPTR));
-        actionShowStats->setText(QApplication::translate("BacklogManagerForm", "Show Stats", Q_NULLPTR));
+        actionImportCSV->setText(QApplication::translate("BacklogManagerForm", "Import .CSV", nullptr));
+        actionClose->setText(QApplication::translate("BacklogManagerForm", "Close", nullptr));
+        actionFilterNotPlayed->setText(QApplication::translate("BacklogManagerForm", "Not Played", nullptr));
+        actionFilterPlayed->setText(QApplication::translate("BacklogManagerForm", "Played", nullptr));
+        actionFilterComplete->setText(QApplication::translate("BacklogManagerForm", "Complete", nullptr));
+        actionFilterAbandoned->setText(QApplication::translate("BacklogManagerForm", "Abandoned", nullptr));
+        actionFilterPC->setText(QApplication::translate("BacklogManagerForm", "PC", nullptr));
+        actionFilterPS4->setText(QApplication::translate("BacklogManagerForm", "Playstation 4", nullptr));
+        actionFilterPS3->setText(QApplication::translate("BacklogManagerForm", "Playstation 3", nullptr));
+        actionFilterPSVita->setText(QApplication::translate("BacklogManagerForm", "Playstation Vita", nullptr));
+        actionFilterOwned->setText(QApplication::translate("BacklogManagerForm", "Owned", nullptr));
+        actionFilterNotOwned->setText(QApplication::translate("BacklogManagerForm", "Not Owned", nullptr));
+        actionShowStats->setText(QApplication::translate("BacklogManagerForm", "Show Stats", nullptr));
 #ifndef QT_NO_TOOLTIP
-        actionShowStats->setToolTip(QApplication::translate("BacklogManagerForm", "Show the stats dialog", Q_NULLPTR));
+        actionShowStats->setToolTip(QApplication::translate("BacklogManagerForm", "Show the stats dialog", nullptr));
 #endif // QT_NO_TOOLTIP
-        actionSetBackupPath->setText(QApplication::translate("BacklogManagerForm", "Set Backup Path", Q_NULLPTR));
+        actionSetBackupPath->setText(QApplication::translate("BacklogManagerForm", "Set Backup Path", nullptr));
 #ifndef QT_NO_TOOLTIP
-        actionSetBackupPath->setToolTip(QApplication::translate("BacklogManagerForm", "Backups are processed on application close", Q_NULLPTR));
+        actionSetBackupPath->setToolTip(QApplication::translate("BacklogManagerForm", "Backups are processed on application close", nullptr));
 #endif // QT_NO_TOOLTIP
-        actionAbout->setText(QApplication::translate("BacklogManagerForm", "About", Q_NULLPTR));
-        actionFilterGames->setText(QApplication::translate("BacklogManagerForm", "actionFilterGames", Q_NULLPTR));
-        BacklogManagerForm_NextGameGroup->setTitle(QApplication::translate("BacklogManagerForm", "Next Game", Q_NULLPTR));
+        actionAbout->setText(QApplication::translate("BacklogManagerForm", "About", nullptr));
+        actionFilterGames->setText(QApplication::translate("BacklogManagerForm", "actionFilterGames", nullptr));
+        BacklogManagerForm_NextGameGroup->setTitle(QApplication::translate("BacklogManagerForm", "Next Game", nullptr));
         BacklogManagerForm_NextGameTitle->setText(QString());
         BacklogManagerForm_NextGamePlatform->setText(QString());
-        BacklogManagerForm_NextGameChooseButton->setText(QApplication::translate("BacklogManagerForm", "Choose Again", Q_NULLPTR));
-        BacklogManagerForm_GameListGroup->setTitle(QApplication::translate("BacklogManagerForm", "Game List", Q_NULLPTR));
+        BacklogManagerForm_NextGameChooseButton->setText(QApplication::translate("BacklogManagerForm", "Choose Again", nullptr));
+        BacklogManagerForm_GameListGroup->setTitle(QApplication::translate("BacklogManagerForm", "Game List", nullptr));
         QTableWidgetItem *___qtablewidgetitem = BacklogManagerForm_GameList->horizontalHeaderItem(0);
-        ___qtablewidgetitem->setText(QApplication::translate("BacklogManagerForm", "Game Name", Q_NULLPTR));
+        ___qtablewidgetitem->setText(QApplication::translate("BacklogManagerForm", "Game Name", nullptr));
         QTableWidgetItem *___qtablewidgetitem1 = BacklogManagerForm_GameList->horizontalHeaderItem(1);
-        ___qtablewidgetitem1->setText(QApplication::translate("BacklogManagerForm", "Platform", Q_NULLPTR));
+        ___qtablewidgetitem1->setText(QApplication::translate("BacklogManagerForm", "Platform", nullptr));
         QTableWidgetItem *___qtablewidgetitem2 = BacklogManagerForm_GameList->horizontalHeaderItem(2);
-        ___qtablewidgetitem2->setText(QApplication::translate("BacklogManagerForm", "Play Status", Q_NULLPTR));
+        ___qtablewidgetitem2->setText(QApplication::translate("BacklogManagerForm", "Play Status", nullptr));
         QTableWidgetItem *___qtablewidgetitem3 = BacklogManagerForm_GameList->horizontalHeaderItem(3);
-        ___qtablewidgetitem3->setText(QApplication::translate("BacklogManagerForm", "Owned", Q_NULLPTR));
+        ___qtablewidgetitem3->setText(QApplication::translate("BacklogManagerForm", "Owned", nullptr));
         QTableWidgetItem *___qtablewidgetitem4 = BacklogManagerForm_GameList->horizontalHeaderItem(4);
-        ___qtablewidgetitem4->setText(QApplication::translate("BacklogManagerForm", "Added", Q_NULLPTR));
-        menuFile->setTitle(QApplication::translate("BacklogManagerForm", "File", Q_NULLPTR));
-        menuFilters->setTitle(QApplication::translate("BacklogManagerForm", "Filters", Q_NULLPTR));
-        menuPlayed_Status->setTitle(QApplication::translate("BacklogManagerForm", "Played Status", Q_NULLPTR));
-        menuPlatform->setTitle(QApplication::translate("BacklogManagerForm", "Platform", Q_NULLPTR));
-        menuOwned_Status->setTitle(QApplication::translate("BacklogManagerForm", "Owned Status", Q_NULLPTR));
-        menuHelp->setTitle(QApplication::translate("BacklogManagerForm", "Help", Q_NULLPTR));
-        toolBar->setWindowTitle(QApplication::translate("BacklogManagerForm", "toolBar", Q_NULLPTR));
+        ___qtablewidgetitem4->setText(QApplication::translate("BacklogManagerForm", "Added", nullptr));
+        menuFile->setTitle(QApplication::translate("BacklogManagerForm", "File", nullptr));
+        menuFilters->setTitle(QApplication::translate("BacklogManagerForm", "Filters", nullptr));
+        menuPlayed_Status->setTitle(QApplication::translate("BacklogManagerForm", "Played Status", nullptr));
+        menuPlatform->setTitle(QApplication::translate("BacklogManagerForm", "Platform", nullptr));
+        menuOwned_Status->setTitle(QApplication::translate("BacklogManagerForm", "Owned Status", nullptr));
+        menuHelp->setTitle(QApplication::translate("BacklogManagerForm", "Help", nullptr));
+        toolBar->setWindowTitle(QApplication::translate("BacklogManagerForm", "toolBar", nullptr));
     } // retranslateUi
 
 };

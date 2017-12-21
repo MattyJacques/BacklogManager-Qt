@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'GameStats.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.3
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -471,62 +471,62 @@ public:
 
     void retranslateUi(QDialog *StatsForm)
     {
-        StatsForm->setWindowTitle(QApplication::translate("StatsForm", "Game Stats", Q_NULLPTR));
-        StatsForm_PCStats->setTitle(QApplication::translate("StatsForm", "PC", Q_NULLPTR));
-        StatsForm_PCNotPlayedLbl->setText(QApplication::translate("StatsForm", "Not Played:", Q_NULLPTR));
-        StatsForm_PCNotPlayed->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PCPlayedLbl->setText(QApplication::translate("StatsForm", "Played:", Q_NULLPTR));
-        StatsForm_PCPlayed->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PCCompleteLbl->setText(QApplication::translate("StatsForm", "Complete:", Q_NULLPTR));
-        StatsForm_PCComplete->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PCAbandonedLbl->setText(QApplication::translate("StatsForm", "Abandoned:", Q_NULLPTR));
-        StatsForm_PCAbandoned->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PCPercentLbl->setText(QApplication::translate("StatsForm", "Done Percentage:", Q_NULLPTR));
-        StatsForm_PCPercent->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PS4Stats->setTitle(QApplication::translate("StatsForm", "Playstation 4", Q_NULLPTR));
-        StatsForm_PS4NotPlayedLbl->setText(QApplication::translate("StatsForm", "Not Played:", Q_NULLPTR));
-        StatsForm_PS4NotPlayed->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PS4PlayedLbl->setText(QApplication::translate("StatsForm", "Played:", Q_NULLPTR));
-        StatsForm_PS4Played->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PS4CompleteLbl->setText(QApplication::translate("StatsForm", "Complete:", Q_NULLPTR));
-        StatsForm_PS4Complete->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PS4AbandonedLbl->setText(QApplication::translate("StatsForm", "Abandoned:", Q_NULLPTR));
-        StatsForm_PS4Abandoned->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PS4PercentLbl->setText(QApplication::translate("StatsForm", "Done Percentage:", Q_NULLPTR));
-        StatsForm_PS4Percent->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PS3Stats->setTitle(QApplication::translate("StatsForm", "Playstation 3", Q_NULLPTR));
-        StatsForm_PS3NotPlayedLbl->setText(QApplication::translate("StatsForm", "Not Played:", Q_NULLPTR));
-        StatsForm_PS3NotPlayed->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PS3PlayedLbl->setText(QApplication::translate("StatsForm", "Played:", Q_NULLPTR));
-        StatsForm_PS3Played->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PS3CompleteLbl->setText(QApplication::translate("StatsForm", "Complete:", Q_NULLPTR));
-        StatsForm_PS3Complete->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PS3AbandonedLbl->setText(QApplication::translate("StatsForm", "Abandoned:", Q_NULLPTR));
-        StatsForm_PS3Abandoned->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PS3PercentLbl->setText(QApplication::translate("StatsForm", "Done Percentage:", Q_NULLPTR));
-        StatsForm_PS3Percent->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PSVitaStats->setTitle(QApplication::translate("StatsForm", "Playstation Vita", Q_NULLPTR));
-        StatsForm_PSVitaNotPlayedLbl->setText(QApplication::translate("StatsForm", "Not Played:", Q_NULLPTR));
-        StatsForm_PSVitaNotPlayed->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PSVitaPlayedLbl->setText(QApplication::translate("StatsForm", "Played:", Q_NULLPTR));
-        StatsForm_PSVitaPlayed->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PSVitaCompleteLbl->setText(QApplication::translate("StatsForm", "Complete:", Q_NULLPTR));
-        StatsForm_PSVitaComplete->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PSVitaAbandonedLbl->setText(QApplication::translate("StatsForm", "Abandoned:", Q_NULLPTR));
-        StatsForm_PSVitaAbandoned->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_PSVitaPercentLbl->setText(QApplication::translate("StatsForm", "Done Percentage:", Q_NULLPTR));
-        StatsForm_PSVitaPercent->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_TotalStats->setTitle(QApplication::translate("StatsForm", "Total", Q_NULLPTR));
-        StatsForm_TotalNotPlayedLbl->setText(QApplication::translate("StatsForm", "Not Played:", Q_NULLPTR));
-        StatsForm_TotalNotPlayed->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_TotalPlayedLbl->setText(QApplication::translate("StatsForm", "Played:", Q_NULLPTR));
-        StatsForm_TotalPlayed->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_TotalCompleteLbl->setText(QApplication::translate("StatsForm", "Complete:", Q_NULLPTR));
-        StatsForm_TotalComplete->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_TotalAbandonedLbl->setText(QApplication::translate("StatsForm", "Abandoned:", Q_NULLPTR));
-        StatsForm_TotalAbandoned->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
-        StatsForm_TotalPercentLbl->setText(QApplication::translate("StatsForm", "Done Percentage:", Q_NULLPTR));
-        StatsForm_TotalPercent->setText(QApplication::translate("StatsForm", "Empty", Q_NULLPTR));
+        StatsForm->setWindowTitle(QApplication::translate("StatsForm", "Game Stats", nullptr));
+        StatsForm_PCStats->setTitle(QApplication::translate("StatsForm", "PC", nullptr));
+        StatsForm_PCNotPlayedLbl->setText(QApplication::translate("StatsForm", "Not Played:", nullptr));
+        StatsForm_PCNotPlayed->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PCPlayedLbl->setText(QApplication::translate("StatsForm", "Played:", nullptr));
+        StatsForm_PCPlayed->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PCCompleteLbl->setText(QApplication::translate("StatsForm", "Complete:", nullptr));
+        StatsForm_PCComplete->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PCAbandonedLbl->setText(QApplication::translate("StatsForm", "Abandoned:", nullptr));
+        StatsForm_PCAbandoned->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PCPercentLbl->setText(QApplication::translate("StatsForm", "Done Percentage:", nullptr));
+        StatsForm_PCPercent->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PS4Stats->setTitle(QApplication::translate("StatsForm", "Playstation 4", nullptr));
+        StatsForm_PS4NotPlayedLbl->setText(QApplication::translate("StatsForm", "Not Played:", nullptr));
+        StatsForm_PS4NotPlayed->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PS4PlayedLbl->setText(QApplication::translate("StatsForm", "Played:", nullptr));
+        StatsForm_PS4Played->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PS4CompleteLbl->setText(QApplication::translate("StatsForm", "Complete:", nullptr));
+        StatsForm_PS4Complete->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PS4AbandonedLbl->setText(QApplication::translate("StatsForm", "Abandoned:", nullptr));
+        StatsForm_PS4Abandoned->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PS4PercentLbl->setText(QApplication::translate("StatsForm", "Done Percentage:", nullptr));
+        StatsForm_PS4Percent->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PS3Stats->setTitle(QApplication::translate("StatsForm", "Playstation 3", nullptr));
+        StatsForm_PS3NotPlayedLbl->setText(QApplication::translate("StatsForm", "Not Played:", nullptr));
+        StatsForm_PS3NotPlayed->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PS3PlayedLbl->setText(QApplication::translate("StatsForm", "Played:", nullptr));
+        StatsForm_PS3Played->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PS3CompleteLbl->setText(QApplication::translate("StatsForm", "Complete:", nullptr));
+        StatsForm_PS3Complete->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PS3AbandonedLbl->setText(QApplication::translate("StatsForm", "Abandoned:", nullptr));
+        StatsForm_PS3Abandoned->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PS3PercentLbl->setText(QApplication::translate("StatsForm", "Done Percentage:", nullptr));
+        StatsForm_PS3Percent->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PSVitaStats->setTitle(QApplication::translate("StatsForm", "Playstation Vita", nullptr));
+        StatsForm_PSVitaNotPlayedLbl->setText(QApplication::translate("StatsForm", "Not Played:", nullptr));
+        StatsForm_PSVitaNotPlayed->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PSVitaPlayedLbl->setText(QApplication::translate("StatsForm", "Played:", nullptr));
+        StatsForm_PSVitaPlayed->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PSVitaCompleteLbl->setText(QApplication::translate("StatsForm", "Complete:", nullptr));
+        StatsForm_PSVitaComplete->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PSVitaAbandonedLbl->setText(QApplication::translate("StatsForm", "Abandoned:", nullptr));
+        StatsForm_PSVitaAbandoned->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_PSVitaPercentLbl->setText(QApplication::translate("StatsForm", "Done Percentage:", nullptr));
+        StatsForm_PSVitaPercent->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_TotalStats->setTitle(QApplication::translate("StatsForm", "Total", nullptr));
+        StatsForm_TotalNotPlayedLbl->setText(QApplication::translate("StatsForm", "Not Played:", nullptr));
+        StatsForm_TotalNotPlayed->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_TotalPlayedLbl->setText(QApplication::translate("StatsForm", "Played:", nullptr));
+        StatsForm_TotalPlayed->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_TotalCompleteLbl->setText(QApplication::translate("StatsForm", "Complete:", nullptr));
+        StatsForm_TotalComplete->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_TotalAbandonedLbl->setText(QApplication::translate("StatsForm", "Abandoned:", nullptr));
+        StatsForm_TotalAbandoned->setText(QApplication::translate("StatsForm", "Empty", nullptr));
+        StatsForm_TotalPercentLbl->setText(QApplication::translate("StatsForm", "Done Percentage:", nullptr));
+        StatsForm_TotalPercent->setText(QApplication::translate("StatsForm", "Empty", nullptr));
     } // retranslateUi
 
 };

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'AddGame.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.3
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -90,12 +90,12 @@ public:
 
     void retranslateUi(QDialog *AddGameForm)
     {
-        AddGameForm->setWindowTitle(QApplication::translate("AddGameForm", "Add Game", Q_NULLPTR));
-        AddGameForm_NameLabel->setText(QApplication::translate("AddGameForm", "Game Name:", Q_NULLPTR));
-        AddGameForm_StatusLabel->setText(QApplication::translate("AddGameForm", "Played Status:", Q_NULLPTR));
-        groupBox->setTitle(QApplication::translate("AddGameForm", "Add Game", Q_NULLPTR));
-        AddGameForm_PlatformLabel->setText(QApplication::translate("AddGameForm", "Platform:", Q_NULLPTR));
-        AddGameForm_OwnedCheck->setText(QApplication::translate("AddGameForm", "Owned", Q_NULLPTR));
+        AddGameForm->setWindowTitle(QApplication::translate("AddGameForm", "Add Game", nullptr));
+        AddGameForm_NameLabel->setText(QApplication::translate("AddGameForm", "Game Name:", nullptr));
+        AddGameForm_StatusLabel->setText(QApplication::translate("AddGameForm", "Played Status:", nullptr));
+        groupBox->setTitle(QApplication::translate("AddGameForm", "Add Game", nullptr));
+        AddGameForm_PlatformLabel->setText(QApplication::translate("AddGameForm", "Platform:", nullptr));
+        AddGameForm_OwnedCheck->setText(QApplication::translate("AddGameForm", "Owned", nullptr));
         AddGameForm_PlayStatus->setCurrentText(QString());
     } // retranslateUi
 

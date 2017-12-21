@@ -98,3 +98,11 @@ $RECYCLE.BIN/
 *.log
 *.pdb
 /x64/Debug/BacklogManager.tlog
+*.user
+GeneratedFiles/ui_AboutForm.h
+BacklogManager.vcxproj.user
+GeneratedFiles/ui_AddGame.h
+GeneratedFiles/ui_BacklogManagerForm.h
+GeneratedFiles/ui_FilterForm.h
+GeneratedFiles/ui_GameForm.h
+GeneratedFiles/ui_GameStats.h

@@ -285,7 +285,7 @@ void GameCollection::AddGamesToTable(const GameVector& a_Games)
   }
 
   #ifdef QT_DEBUG
-    qDebug() << "Addings games to table took" << timer.elapsed() << "milliseconds";
+    qDebug() << "Adding games to table took" << timer.elapsed() << "milliseconds";
    #endif
 } // AddGamesToTable()
 
@@ -304,9 +304,8 @@ void GameCollection::MergeGame(const Game& a_Game)
 { // Merge the parameter game with the existing record in the vector
 
   int vectorIndex = GetVectorIndex(a_Game.m_GameName);
-  int tableIndex = GetTableIndex(a_Game.m_GameName);
 
-  if (vectorIndex != INVALIDINDEX && tableIndex != INVALIDINDEX)
+  if (vectorIndex != INVALIDINDEX)
   {
     Game* origGame = &m_GameCollection[vectorIndex];
     MergePlatforms(origGame, a_Game);
@@ -545,6 +544,10 @@ bool GameCollection::CheckPlatformFilter(const Game& a_Game) const
   {
     if (m_ShowPSVita)
       result |= m_ShowPSVita->isChecked();
+  }
+  if (m_ShowPC && m_ShowPS4 && m_ShowPS3 && m_ShowPSVita)
+  {
+    result = true;
   }
   
   return result;

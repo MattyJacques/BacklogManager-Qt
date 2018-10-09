@@ -208,6 +208,7 @@ public:
         menuBar = new QMenuBar(BacklogManagerForm);
         menuBar->setObjectName(QStringLiteral("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 831, 21));
+        menuBar->setToolTipDuration(1);
         menuFile = new QMenu(menuBar);
         menuFile->setObjectName(QStringLiteral("menuFile"));
         menuFilters = new QMenu(menuBar);
@@ -273,6 +274,9 @@ public:
         actionDeleteGame->setToolTip(QApplication::translate("BacklogManagerForm", "Delete a game from the collection", nullptr));
 #endif // QT_NO_TOOLTIP
         actionImportCSV->setText(QApplication::translate("BacklogManagerForm", "Import .CSV", nullptr));
+#ifndef QT_NO_TOOLTIP
+        actionImportCSV->setToolTip(QApplication::translate("BacklogManagerForm", "Import a .csv file", nullptr));
+#endif // QT_NO_TOOLTIP
         actionClose->setText(QApplication::translate("BacklogManagerForm", "Close", nullptr));
         actionFilterNotPlayed->setText(QApplication::translate("BacklogManagerForm", "Not Played", nullptr));
         actionFilterPlayed->setText(QApplication::translate("BacklogManagerForm", "Played", nullptr));
@@ -292,6 +296,12 @@ public:
 #ifndef QT_NO_TOOLTIP
         actionSetBackupPath->setToolTip(QApplication::translate("BacklogManagerForm", "Backups are processed on application close", nullptr));
 #endif // QT_NO_TOOLTIP
+#ifndef QT_NO_STATUSTIP
+        actionSetBackupPath->setStatusTip(QApplication::translate("BacklogManagerForm", "Backups are processed on application close", nullptr));
+#endif // QT_NO_STATUSTIP
+#ifndef QT_NO_WHATSTHIS
+        actionSetBackupPath->setWhatsThis(QApplication::translate("BacklogManagerForm", "Backups are processed on application close", nullptr));
+#endif // QT_NO_WHATSTHIS
         actionAbout->setText(QApplication::translate("BacklogManagerForm", "About", nullptr));
         actionFilterGames->setText(QApplication::translate("BacklogManagerForm", "actionFilterGames", nullptr));
         BacklogManagerForm_NextGameGroup->setTitle(QApplication::translate("BacklogManagerForm", "Next Game", nullptr));

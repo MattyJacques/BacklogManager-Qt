@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Filters</string>
   </property>
   <widget class="QDialogButtonBox" name="FilterForm_ButtonBox">
    <property name="geometry">

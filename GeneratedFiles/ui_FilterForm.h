@@ -145,7 +145,7 @@ public:
 
     void retranslateUi(QDialog *FilterForm)
     {
-        FilterForm->setWindowTitle(QApplication::translate("FilterForm", "Dialog", nullptr));
+        FilterForm->setWindowTitle(QApplication::translate("FilterForm", "Filters", nullptr));
         FilterForm_PlayStatusGrp->setTitle(QApplication::translate("FilterForm", "Play Status", nullptr));
         FilterForm_NotPlayed->setText(QApplication::translate("FilterForm", "Show Not Played", nullptr));
         FilterForm_Played->setText(QApplication::translate("FilterForm", "Show Played", nullptr));

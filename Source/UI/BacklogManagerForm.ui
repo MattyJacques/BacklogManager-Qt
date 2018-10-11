@@ -182,6 +182,9 @@
      <height>21</height>
     </rect>
    </property>
+   <property name="toolTipDuration">
+    <number>1</number>
+   </property>
    <widget class="QMenu" name="menuFile">
     <property name="title">
      <string>File</string>
@@ -290,6 +293,9 @@
    <property name="text">
     <string>Import .CSV</string>
    </property>
+   <property name="toolTip">
+    <string>Import a .csv file</string>
+   </property>
   </action>
   <action name="actionClose">
    <property name="text">
@@ -393,6 +399,12 @@
     <string>Set Backup Path</string>
    </property>
    <property name="toolTip">
+    <string>Backups are processed on application close</string>
+   </property>
+   <property name="statusTip">
+    <string>Backups are processed on application close</string>
+   </property>
+   <property name="whatsThis">
     <string>Backups are processed on application close</string>
    </property>
   </action>

@@ -1,7 +1,6 @@
 //==============================================================================
 //
 // Title: BacklogManager.cpp
-// Name: Matthew Jacques
 // Description: Implementation for the main window
 //
 //==============================================================================

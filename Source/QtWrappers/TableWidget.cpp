@@ -1,7 +1,6 @@
 //==============================================================================
 //
 // Title: TableWidget.cpp
-// Name: Matthew Jacques
 // Description: Wrapper for QTableWidget to expand functionality
 //
 //==============================================================================

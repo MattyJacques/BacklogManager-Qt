@@ -1,7 +1,6 @@
 //==============================================================================
 //
 // Title: GameForm.cpp
-// Name: Matthew Jacques
 // Description: Implementation for the add/edit game dialog
 //
 //==============================================================================

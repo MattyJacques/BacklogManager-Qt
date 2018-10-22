@@ -1,7 +1,6 @@
 //==============================================================================
 //
 // Title: SQLDatabase.h
-// Name: Matthew Jacques
 // Description: Interface for QSqlDatabase to improve abstraction
 //
 //==============================================================================

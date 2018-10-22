@@ -1,7 +1,6 @@
 //==============================================================================
 //
 // Title: GameCollection.h
-// Name: Matthew Jacques
 // Description: Handles the collections of games, manages table and DB
 //
 //==============================================================================

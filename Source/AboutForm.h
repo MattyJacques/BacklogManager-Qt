@@ -10,6 +10,7 @@
 #include <QDialog>                                     // Qt dialog
 #include "UI/GeneratedFiles/ui_AboutForm.h"            // UI file
 
+
 class AboutForm : public QDialog
 {
   Q_OBJECT

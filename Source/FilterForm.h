@@ -8,8 +8,8 @@
 
 #pragma once
 
-#include <QDialog>                        // Qt dialog
-#include "ui_FilterForm.h"                // UI file
+#include <QDialog>                             // Qt dialog
+#include "UI/GeneratedFiles/ui_FilterForm.h"   // UI file
 
 class Filterform : public QDialog
 {

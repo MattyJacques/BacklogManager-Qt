@@ -8,9 +8,9 @@
 
 #pragma once
 
-#include <QDialog>                        // Qt dialog
-#include "ui_GameForm.h"                  // UI file
-#include "Defines.h"                      // Misc defines
+#include <QDialog>                          // Qt dialog
+#include "Defines.h"                        // Misc defines
+#include "UI/GeneratedFiles/ui_GameForm.h"  // UI file
 
 class GameForm : public QDialog
 {

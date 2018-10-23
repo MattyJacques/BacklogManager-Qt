@@ -7,9 +7,9 @@
 
 #pragma once
 
-#include <QDialog>                        // Qt dialog
-#include "ui_GameStats.h"                 // UI file
-#include "Defines.h"                      // Misc defines
+#include <QDialog>                          // Qt dialog
+#include "Defines.h"                        // Misc defines
+#include "UI/GeneratedFiles/ui_GameStats.h" // UI file
 
 class GameStats : public QDialog
 {

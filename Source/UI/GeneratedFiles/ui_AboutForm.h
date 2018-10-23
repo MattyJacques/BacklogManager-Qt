@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'AboutForm.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.2
+** Created by: Qt User Interface Compiler version 5.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -82,11 +82,11 @@ public:
 
     void retranslateUi(QDialog *AboutForm)
     {
-        AboutForm->setWindowTitle(QApplication::translate("AboutForm", "Dialog", Q_NULLPTR));
+        AboutForm->setWindowTitle(QApplication::translate("AboutForm", "Dialog", nullptr));
         AboutForm_Logo->setText(QString());
-        AboutForm_DeveloperName->setText(QApplication::translate("AboutForm", "Developer: Matthew Jacques", Q_NULLPTR));
-        AboutForm_LinkedIn->setText(QApplication::translate("AboutForm", "<a href=\"https://www.linkedin.com/in/matthew-jacques-94671255/\">LinkedIn</a>", Q_NULLPTR));
-        AboutForm_GitHub->setText(QApplication::translate("AboutForm", "<a href=\"https://github.com/MattyJacques\">GitHub</a>", Q_NULLPTR));
+        AboutForm_DeveloperName->setText(QApplication::translate("AboutForm", "Developer: Matthew Jacques", nullptr));
+        AboutForm_LinkedIn->setText(QApplication::translate("AboutForm", "<a href=\"https://www.linkedin.com/in/matthew-jacques-94671255/\">LinkedIn</a>", nullptr));
+        AboutForm_GitHub->setText(QApplication::translate("AboutForm", "<a href=\"https://github.com/MattyJacques\">GitHub</a>", nullptr));
     } // retranslateUi
 
 };

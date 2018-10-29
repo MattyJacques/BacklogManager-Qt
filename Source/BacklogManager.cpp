@@ -54,6 +54,9 @@ BacklogManager::BacklogManager(QWidget *parent)
     }
   }
 
+  QVector<float> gameStats = (*m_GameCollection).GetStats();
+  UpdateStats(gameStats);
+
 } // BacklogManager()
 
 
@@ -195,7 +198,7 @@ void BacklogManager::FillStatusCombo()
 
 void BacklogManager::OnStats()
 { // Fill the stats with data.
-  // TODO: Implement a seperate update stats method, this is inefficient
+  // TODO: Implement a separate update stats method, this is inefficient
 
   QVector<float> gameStats = (*m_GameCollection).GetStats();
 
@@ -313,6 +316,27 @@ void BacklogManager::ConnectActions()
   connect(m_UI.actionFilterNotOwned, &QAction::triggered, this,
     &BacklogManager::FilterTable);
 
+  m_notPlayedPC = m_UI.BacklogManagerForm_PCNotPlayed;
+  m_notPlayedPS4 = m_UI.BacklogManagerForm_PS4NotPlayed;
+  m_notPlayedPS3 = m_UI.BacklogManagerForm_PS3NotPlayed;
+  m_notPlayedPSVita = m_UI.BacklogManagerForm_PSVitaNotPlayed;
+  m_playedPC = m_UI.BacklogManagerForm_PCPlayed;
+  m_playedPS4 = m_UI.BacklogManagerForm_PS4Played;
+  m_playedPS3 = m_UI.BacklogManagerForm_PS3Played;
+  m_playedPSVita = m_UI.BacklogManagerForm_PSVitaPlayed;
+  m_completePC = m_UI.BacklogManagerForm_PCComplete;
+  m_completePS4 = m_UI.BacklogManagerForm_PS4Complete;
+  m_completePS3 = m_UI.BacklogManagerForm_PS3Complete;
+  m_completePSVita = m_UI.BacklogManagerForm_PSVitaComplete;
+  m_abandonedPC = m_UI.BacklogManagerForm_PCAbandoned;
+  m_abandonedPS4 = m_UI.BacklogManagerForm_PS4Abandoned;
+  m_abandonedPS3 = m_UI.BacklogManagerForm_PS3Abandoned;
+  m_abandonedPSVita = m_UI.BacklogManagerForm_PSVitaAbandoned;
+  m_percentPC = m_UI.BacklogManagerForm_PCPercent;
+  m_percentPS4 = m_UI.BacklogManagerForm_PS4Percent;
+  m_percentPS3 = m_UI.BacklogManagerForm_PS3Percent;
+  m_percentPSVita = m_UI.BacklogManagerForm_PSVitaPercent;
+
 } // ConnectActions()
 
 
@@ -356,6 +380,33 @@ void BacklogManager::Quit()
 { // Quit the application
   QCoreApplication::quit();
 } // Quit()
+
+
+void BacklogManager::UpdateStats(const QVector<float>& a_Stats)
+{ // Update the stats with the given
+
+  m_notPlayedPC->setText(QString::number((int)a_Stats[PCNOTPLAYEDINDEX]));
+  m_notPlayedPS4->setText(QString::number((int)a_Stats[PS4NOTPLAYEDINDEX]));
+  m_notPlayedPS3->setText(QString::number((int)a_Stats[PS3NOTPLAYEDINDEX]));
+  m_notPlayedPSVita->setText(QString::number((int)a_Stats[PSVITANOTPLAYEDINDEX]));
+  m_playedPC->setText(QString::number((int)a_Stats[PCPLAYEDINDEX]));
+  m_playedPS4->setText(QString::number((int)a_Stats[PS4PLAYEDINDEX]));
+  m_playedPS3->setText(QString::number((int)a_Stats[PS3PLAYEDINDEX]));
+  m_playedPSVita->setText(QString::number((int)a_Stats[PSVITAPLAYEDINDEX]));
+  m_completePC->setText(QString::number((int)a_Stats[PCCOMPLETEINDEX]));
+  m_completePS4->setText(QString::number((int)a_Stats[PS4COMPLETEINDEX]));
+  m_completePS3->setText(QString::number((int)a_Stats[PS3COMPLETEINDEX]));
+  m_completePSVita->setText(QString::number((int)a_Stats[PSVITACOMPLETEINDEX]));
+  m_abandonedPC->setText(QString::number((int)a_Stats[PCABANDONEDINDEX]));
+  m_abandonedPS4->setText(QString::number((int)a_Stats[PS4ABANDONEDINDEX]));
+  m_abandonedPS3->setText(QString::number((int)a_Stats[PS3ABANDONEDINDEX]));
+  m_abandonedPSVita->setText(QString::number((int)a_Stats[PSVITAABANDONEDINDEX]));
+  m_percentPC->setText(QString::number(a_Stats[PCPERCENTINDEX]));
+  m_percentPS4->setText(QString::number(a_Stats[PS4PERCENTINDEX]));
+  m_percentPS3->setText(QString::number(a_Stats[PS3PERCENTINDEX]));
+  m_percentPSVita->setText(QString::number(a_Stats[PSVITAPERCENTINDEX]));
+
+} // UpdateStats()
 
 
 void BacklogManager::ResetStatsDialog()

@@ -13,7 +13,6 @@
 
 class GameStats : public QDialog
 {
-  Q_OBJECT
 
 public:
   GameStats(const QVector<float>& a_Stats,

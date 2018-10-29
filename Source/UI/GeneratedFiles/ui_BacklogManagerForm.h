@@ -61,54 +61,54 @@ public:
     QPushButton *BacklogManagerForm_NextGameChooseButton;
     QGroupBox *BacklogManagerForm_StatsGroup;
     QHBoxLayout *horizontalLayout_2;
-    QGroupBox *StatsForm_PCStats;
+    QGroupBox *BacklogManagerForm_PCStats;
     QFormLayout *formLayout_4;
-    QLabel *StatsForm_PCNotPlayedLbl;
-    QLabel *StatsForm_PCNotPlayed;
-    QLabel *StatsForm_PCPlayedLbl;
-    QLabel *StatsForm_PCPlayed;
-    QLabel *StatsForm_PCCompleteLbl;
-    QLabel *StatsForm_PCComplete;
-    QLabel *StatsForm_PCAbandonedLbl;
-    QLabel *StatsForm_PCAbandoned;
-    QLabel *StatsForm_PCPercentLbl;
-    QLabel *StatsForm_PCPercent;
-    QGroupBox *StatsForm_PS4Stats;
+    QLabel *BacklogManagerForm_PCNotPlayedLbl;
+    QLabel *BacklogManagerForm_PCNotPlayed;
+    QLabel *BacklogManagerForm_PCPlayedLbl;
+    QLabel *BacklogManagerForm_PCPlayed;
+    QLabel *BacklogManagerForm_PCCompleteLbl;
+    QLabel *BacklogManagerForm_PCComplete;
+    QLabel *BacklogManagerForm_PCAbandonedLbl;
+    QLabel *BacklogManagerForm_PCAbandoned;
+    QLabel *BacklogManagerForm_PCPercentLbl;
+    QLabel *BacklogManagerForm_PCPercent;
+    QGroupBox *BacklogManagerForm_PS4Stats;
     QFormLayout *formLayout_3;
-    QLabel *StatsForm_PS4NotPlayedLbl;
-    QLabel *StatsForm_PS4NotPlayed;
-    QLabel *StatsForm_PS4PlayedLbl;
-    QLabel *StatsForm_PS4Played;
-    QLabel *StatsForm_PS4CompleteLbl;
-    QLabel *StatsForm_PS4Complete;
-    QLabel *StatsForm_PS4AbandonedLbl;
-    QLabel *StatsForm_PS4Abandoned;
-    QLabel *StatsForm_PS4PercentLbl;
-    QLabel *StatsForm_PS4Percent;
-    QGroupBox *StatsForm_PS3Stats;
+    QLabel *BacklogManagerForm_PS4NotPlayedLbl;
+    QLabel *BacklogManagerForm_PS4NotPlayed;
+    QLabel *BacklogManagerForm_PS4PlayedLbl;
+    QLabel *BacklogManagerForm_PS4Played;
+    QLabel *BacklogManagerForm_PS4CompleteLbl;
+    QLabel *BacklogManagerForm_PS4Complete;
+    QLabel *BacklogManagerForm_PS4AbandonedLbl;
+    QLabel *BacklogManagerForm_PS4Abandoned;
+    QLabel *BacklogManagerForm_PS4PercentLbl;
+    QLabel *BacklogManagerForm_PS4Percent;
+    QGroupBox *BacklogManagerForm_PS3Stats;
     QFormLayout *formLayout_2;
-    QLabel *StatsForm_PS3NotPlayedLbl;
-    QLabel *StatsForm_PS3NotPlayed;
-    QLabel *StatsForm_PS3PlayedLbl;
-    QLabel *StatsForm_PS3Played;
-    QLabel *StatsForm_PS3CompleteLbl;
-    QLabel *StatsForm_PS3Complete;
-    QLabel *StatsForm_PS3AbandonedLbl;
-    QLabel *StatsForm_PS3Abandoned;
-    QLabel *StatsForm_PS3PercentLbl;
-    QLabel *StatsForm_PS3Percent;
-    QGroupBox *StatsForm_PSVitaStats;
+    QLabel *BacklogManagerForm_PS3NotPlayedLbl;
+    QLabel *BacklogManagerForm_PS3NotPlayed;
+    QLabel *BacklogManagerForm_PS3PlayedLbl;
+    QLabel *BacklogManagerForm_PS3Played;
+    QLabel *BacklogManagerForm_PS3CompleteLbl;
+    QLabel *BacklogManagerForm_PS3Complete;
+    QLabel *BacklogManagerForm_PS3AbandonedLbl;
+    QLabel *BacklogManagerForm_PS3Abandoned;
+    QLabel *BacklogManagerForm_PS3PercentLbl;
+    QLabel *BacklogManagerForm_PS3Percent;
+    QGroupBox *BacklogManagerForm_PSVitaStats;
     QFormLayout *formLayout;
-    QLabel *StatsForm_PSVitaNotPlayedLbl;
-    QLabel *StatsForm_PSVitaNotPlayed;
-    QLabel *StatsForm_PSVitaPlayedLbl;
-    QLabel *StatsForm_PSVitaPlayed;
-    QLabel *StatsForm_PSVitaCompleteLbl;
-    QLabel *StatsForm_PSVitaComplete;
-    QLabel *StatsForm_PSVitaAbandonedLbl;
-    QLabel *StatsForm_PSVitaAbandoned;
-    QLabel *StatsForm_PSVitaPercentLbl;
-    QLabel *StatsForm_PSVitaPercent;
+    QLabel *BacklogManagerForm_PSVitaNotPlayedLbl;
+    QLabel *BacklogManagerForm_PSVitaNotPlayed;
+    QLabel *BacklogManagerForm_PSVitaPlayedLbl;
+    QLabel *BacklogManagerForm_PSVitaPlayed;
+    QLabel *BacklogManagerForm_PSVitaCompleteLbl;
+    QLabel *BacklogManagerForm_PSVitaComplete;
+    QLabel *BacklogManagerForm_PSVitaAbandonedLbl;
+    QLabel *BacklogManagerForm_PSVitaAbandoned;
+    QLabel *BacklogManagerForm_PSVitaPercentLbl;
+    QLabel *BacklogManagerForm_PSVitaPercent;
     QGroupBox *BacklogManagerForm_GameListGroup;
     QHBoxLayout *horizontalLayout;
     QTableWidget *BacklogManagerForm_GameList;
@@ -228,287 +228,287 @@ public:
         horizontalLayout_2->setSpacing(6);
         horizontalLayout_2->setContentsMargins(11, 11, 11, 11);
         horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
-        StatsForm_PCStats = new QGroupBox(BacklogManagerForm_StatsGroup);
-        StatsForm_PCStats->setObjectName(QStringLiteral("StatsForm_PCStats"));
+        BacklogManagerForm_PCStats = new QGroupBox(BacklogManagerForm_StatsGroup);
+        BacklogManagerForm_PCStats->setObjectName(QStringLiteral("BacklogManagerForm_PCStats"));
         QFont font1;
         font1.setPointSize(10);
-        StatsForm_PCStats->setFont(font1);
-        formLayout_4 = new QFormLayout(StatsForm_PCStats);
+        BacklogManagerForm_PCStats->setFont(font1);
+        formLayout_4 = new QFormLayout(BacklogManagerForm_PCStats);
         formLayout_4->setSpacing(6);
         formLayout_4->setContentsMargins(11, 11, 11, 11);
         formLayout_4->setObjectName(QStringLiteral("formLayout_4"));
-        StatsForm_PCNotPlayedLbl = new QLabel(StatsForm_PCStats);
-        StatsForm_PCNotPlayedLbl->setObjectName(QStringLiteral("StatsForm_PCNotPlayedLbl"));
-        StatsForm_PCNotPlayedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PCNotPlayedLbl->setFont(font1);
+        BacklogManagerForm_PCNotPlayedLbl = new QLabel(BacklogManagerForm_PCStats);
+        BacklogManagerForm_PCNotPlayedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PCNotPlayedLbl"));
+        BacklogManagerForm_PCNotPlayedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PCNotPlayedLbl->setFont(font1);
 
-        formLayout_4->setWidget(0, QFormLayout::LabelRole, StatsForm_PCNotPlayedLbl);
+        formLayout_4->setWidget(0, QFormLayout::LabelRole, BacklogManagerForm_PCNotPlayedLbl);
 
-        StatsForm_PCNotPlayed = new QLabel(StatsForm_PCStats);
-        StatsForm_PCNotPlayed->setObjectName(QStringLiteral("StatsForm_PCNotPlayed"));
+        BacklogManagerForm_PCNotPlayed = new QLabel(BacklogManagerForm_PCStats);
+        BacklogManagerForm_PCNotPlayed->setObjectName(QStringLiteral("BacklogManagerForm_PCNotPlayed"));
 
-        formLayout_4->setWidget(0, QFormLayout::FieldRole, StatsForm_PCNotPlayed);
+        formLayout_4->setWidget(0, QFormLayout::FieldRole, BacklogManagerForm_PCNotPlayed);
 
-        StatsForm_PCPlayedLbl = new QLabel(StatsForm_PCStats);
-        StatsForm_PCPlayedLbl->setObjectName(QStringLiteral("StatsForm_PCPlayedLbl"));
-        StatsForm_PCPlayedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PCPlayedLbl->setFont(font1);
+        BacklogManagerForm_PCPlayedLbl = new QLabel(BacklogManagerForm_PCStats);
+        BacklogManagerForm_PCPlayedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PCPlayedLbl"));
+        BacklogManagerForm_PCPlayedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PCPlayedLbl->setFont(font1);
 
-        formLayout_4->setWidget(1, QFormLayout::LabelRole, StatsForm_PCPlayedLbl);
+        formLayout_4->setWidget(1, QFormLayout::LabelRole, BacklogManagerForm_PCPlayedLbl);
 
-        StatsForm_PCPlayed = new QLabel(StatsForm_PCStats);
-        StatsForm_PCPlayed->setObjectName(QStringLiteral("StatsForm_PCPlayed"));
+        BacklogManagerForm_PCPlayed = new QLabel(BacklogManagerForm_PCStats);
+        BacklogManagerForm_PCPlayed->setObjectName(QStringLiteral("BacklogManagerForm_PCPlayed"));
 
-        formLayout_4->setWidget(1, QFormLayout::FieldRole, StatsForm_PCPlayed);
+        formLayout_4->setWidget(1, QFormLayout::FieldRole, BacklogManagerForm_PCPlayed);
 
-        StatsForm_PCCompleteLbl = new QLabel(StatsForm_PCStats);
-        StatsForm_PCCompleteLbl->setObjectName(QStringLiteral("StatsForm_PCCompleteLbl"));
-        StatsForm_PCCompleteLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PCCompleteLbl->setFont(font1);
+        BacklogManagerForm_PCCompleteLbl = new QLabel(BacklogManagerForm_PCStats);
+        BacklogManagerForm_PCCompleteLbl->setObjectName(QStringLiteral("BacklogManagerForm_PCCompleteLbl"));
+        BacklogManagerForm_PCCompleteLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PCCompleteLbl->setFont(font1);
 
-        formLayout_4->setWidget(2, QFormLayout::LabelRole, StatsForm_PCCompleteLbl);
+        formLayout_4->setWidget(2, QFormLayout::LabelRole, BacklogManagerForm_PCCompleteLbl);
 
-        StatsForm_PCComplete = new QLabel(StatsForm_PCStats);
-        StatsForm_PCComplete->setObjectName(QStringLiteral("StatsForm_PCComplete"));
+        BacklogManagerForm_PCComplete = new QLabel(BacklogManagerForm_PCStats);
+        BacklogManagerForm_PCComplete->setObjectName(QStringLiteral("BacklogManagerForm_PCComplete"));
 
-        formLayout_4->setWidget(2, QFormLayout::FieldRole, StatsForm_PCComplete);
+        formLayout_4->setWidget(2, QFormLayout::FieldRole, BacklogManagerForm_PCComplete);
 
-        StatsForm_PCAbandonedLbl = new QLabel(StatsForm_PCStats);
-        StatsForm_PCAbandonedLbl->setObjectName(QStringLiteral("StatsForm_PCAbandonedLbl"));
-        StatsForm_PCAbandonedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PCAbandonedLbl->setFont(font1);
+        BacklogManagerForm_PCAbandonedLbl = new QLabel(BacklogManagerForm_PCStats);
+        BacklogManagerForm_PCAbandonedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PCAbandonedLbl"));
+        BacklogManagerForm_PCAbandonedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PCAbandonedLbl->setFont(font1);
 
-        formLayout_4->setWidget(3, QFormLayout::LabelRole, StatsForm_PCAbandonedLbl);
+        formLayout_4->setWidget(3, QFormLayout::LabelRole, BacklogManagerForm_PCAbandonedLbl);
 
-        StatsForm_PCAbandoned = new QLabel(StatsForm_PCStats);
-        StatsForm_PCAbandoned->setObjectName(QStringLiteral("StatsForm_PCAbandoned"));
+        BacklogManagerForm_PCAbandoned = new QLabel(BacklogManagerForm_PCStats);
+        BacklogManagerForm_PCAbandoned->setObjectName(QStringLiteral("BacklogManagerForm_PCAbandoned"));
 
-        formLayout_4->setWidget(3, QFormLayout::FieldRole, StatsForm_PCAbandoned);
+        formLayout_4->setWidget(3, QFormLayout::FieldRole, BacklogManagerForm_PCAbandoned);
 
-        StatsForm_PCPercentLbl = new QLabel(StatsForm_PCStats);
-        StatsForm_PCPercentLbl->setObjectName(QStringLiteral("StatsForm_PCPercentLbl"));
-        StatsForm_PCPercentLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PCPercentLbl->setFont(font1);
+        BacklogManagerForm_PCPercentLbl = new QLabel(BacklogManagerForm_PCStats);
+        BacklogManagerForm_PCPercentLbl->setObjectName(QStringLiteral("BacklogManagerForm_PCPercentLbl"));
+        BacklogManagerForm_PCPercentLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PCPercentLbl->setFont(font1);
 
-        formLayout_4->setWidget(4, QFormLayout::LabelRole, StatsForm_PCPercentLbl);
+        formLayout_4->setWidget(4, QFormLayout::LabelRole, BacklogManagerForm_PCPercentLbl);
 
-        StatsForm_PCPercent = new QLabel(StatsForm_PCStats);
-        StatsForm_PCPercent->setObjectName(QStringLiteral("StatsForm_PCPercent"));
+        BacklogManagerForm_PCPercent = new QLabel(BacklogManagerForm_PCStats);
+        BacklogManagerForm_PCPercent->setObjectName(QStringLiteral("BacklogManagerForm_PCPercent"));
 
-        formLayout_4->setWidget(4, QFormLayout::FieldRole, StatsForm_PCPercent);
+        formLayout_4->setWidget(4, QFormLayout::FieldRole, BacklogManagerForm_PCPercent);
 
 
-        horizontalLayout_2->addWidget(StatsForm_PCStats);
+        horizontalLayout_2->addWidget(BacklogManagerForm_PCStats);
 
-        StatsForm_PS4Stats = new QGroupBox(BacklogManagerForm_StatsGroup);
-        StatsForm_PS4Stats->setObjectName(QStringLiteral("StatsForm_PS4Stats"));
-        StatsForm_PS4Stats->setFont(font1);
-        formLayout_3 = new QFormLayout(StatsForm_PS4Stats);
+        BacklogManagerForm_PS4Stats = new QGroupBox(BacklogManagerForm_StatsGroup);
+        BacklogManagerForm_PS4Stats->setObjectName(QStringLiteral("BacklogManagerForm_PS4Stats"));
+        BacklogManagerForm_PS4Stats->setFont(font1);
+        formLayout_3 = new QFormLayout(BacklogManagerForm_PS4Stats);
         formLayout_3->setSpacing(6);
         formLayout_3->setContentsMargins(11, 11, 11, 11);
         formLayout_3->setObjectName(QStringLiteral("formLayout_3"));
-        StatsForm_PS4NotPlayedLbl = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4NotPlayedLbl->setObjectName(QStringLiteral("StatsForm_PS4NotPlayedLbl"));
-        StatsForm_PS4NotPlayedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PS4NotPlayedLbl->setFont(font1);
+        BacklogManagerForm_PS4NotPlayedLbl = new QLabel(BacklogManagerForm_PS4Stats);
+        BacklogManagerForm_PS4NotPlayedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PS4NotPlayedLbl"));
+        BacklogManagerForm_PS4NotPlayedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PS4NotPlayedLbl->setFont(font1);
 
-        formLayout_3->setWidget(0, QFormLayout::LabelRole, StatsForm_PS4NotPlayedLbl);
+        formLayout_3->setWidget(0, QFormLayout::LabelRole, BacklogManagerForm_PS4NotPlayedLbl);
 
-        StatsForm_PS4NotPlayed = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4NotPlayed->setObjectName(QStringLiteral("StatsForm_PS4NotPlayed"));
+        BacklogManagerForm_PS4NotPlayed = new QLabel(BacklogManagerForm_PS4Stats);
+        BacklogManagerForm_PS4NotPlayed->setObjectName(QStringLiteral("BacklogManagerForm_PS4NotPlayed"));
 
-        formLayout_3->setWidget(0, QFormLayout::FieldRole, StatsForm_PS4NotPlayed);
+        formLayout_3->setWidget(0, QFormLayout::FieldRole, BacklogManagerForm_PS4NotPlayed);
 
-        StatsForm_PS4PlayedLbl = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4PlayedLbl->setObjectName(QStringLiteral("StatsForm_PS4PlayedLbl"));
-        StatsForm_PS4PlayedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PS4PlayedLbl->setFont(font1);
+        BacklogManagerForm_PS4PlayedLbl = new QLabel(BacklogManagerForm_PS4Stats);
+        BacklogManagerForm_PS4PlayedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PS4PlayedLbl"));
+        BacklogManagerForm_PS4PlayedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PS4PlayedLbl->setFont(font1);
 
-        formLayout_3->setWidget(1, QFormLayout::LabelRole, StatsForm_PS4PlayedLbl);
+        formLayout_3->setWidget(1, QFormLayout::LabelRole, BacklogManagerForm_PS4PlayedLbl);
 
-        StatsForm_PS4Played = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4Played->setObjectName(QStringLiteral("StatsForm_PS4Played"));
+        BacklogManagerForm_PS4Played = new QLabel(BacklogManagerForm_PS4Stats);
+        BacklogManagerForm_PS4Played->setObjectName(QStringLiteral("BacklogManagerForm_PS4Played"));
 
-        formLayout_3->setWidget(1, QFormLayout::FieldRole, StatsForm_PS4Played);
+        formLayout_3->setWidget(1, QFormLayout::FieldRole, BacklogManagerForm_PS4Played);
 
-        StatsForm_PS4CompleteLbl = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4CompleteLbl->setObjectName(QStringLiteral("StatsForm_PS4CompleteLbl"));
-        StatsForm_PS4CompleteLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PS4CompleteLbl->setFont(font1);
+        BacklogManagerForm_PS4CompleteLbl = new QLabel(BacklogManagerForm_PS4Stats);
+        BacklogManagerForm_PS4CompleteLbl->setObjectName(QStringLiteral("BacklogManagerForm_PS4CompleteLbl"));
+        BacklogManagerForm_PS4CompleteLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PS4CompleteLbl->setFont(font1);
 
-        formLayout_3->setWidget(2, QFormLayout::LabelRole, StatsForm_PS4CompleteLbl);
+        formLayout_3->setWidget(2, QFormLayout::LabelRole, BacklogManagerForm_PS4CompleteLbl);
 
-        StatsForm_PS4Complete = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4Complete->setObjectName(QStringLiteral("StatsForm_PS4Complete"));
+        BacklogManagerForm_PS4Complete = new QLabel(BacklogManagerForm_PS4Stats);
+        BacklogManagerForm_PS4Complete->setObjectName(QStringLiteral("BacklogManagerForm_PS4Complete"));
 
-        formLayout_3->setWidget(2, QFormLayout::FieldRole, StatsForm_PS4Complete);
+        formLayout_3->setWidget(2, QFormLayout::FieldRole, BacklogManagerForm_PS4Complete);
 
-        StatsForm_PS4AbandonedLbl = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4AbandonedLbl->setObjectName(QStringLiteral("StatsForm_PS4AbandonedLbl"));
-        StatsForm_PS4AbandonedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PS4AbandonedLbl->setFont(font1);
+        BacklogManagerForm_PS4AbandonedLbl = new QLabel(BacklogManagerForm_PS4Stats);
+        BacklogManagerForm_PS4AbandonedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PS4AbandonedLbl"));
+        BacklogManagerForm_PS4AbandonedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PS4AbandonedLbl->setFont(font1);
 
-        formLayout_3->setWidget(3, QFormLayout::LabelRole, StatsForm_PS4AbandonedLbl);
+        formLayout_3->setWidget(3, QFormLayout::LabelRole, BacklogManagerForm_PS4AbandonedLbl);
 
-        StatsForm_PS4Abandoned = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4Abandoned->setObjectName(QStringLiteral("StatsForm_PS4Abandoned"));
+        BacklogManagerForm_PS4Abandoned = new QLabel(BacklogManagerForm_PS4Stats);
+        BacklogManagerForm_PS4Abandoned->setObjectName(QStringLiteral("BacklogManagerForm_PS4Abandoned"));
 
-        formLayout_3->setWidget(3, QFormLayout::FieldRole, StatsForm_PS4Abandoned);
+        formLayout_3->setWidget(3, QFormLayout::FieldRole, BacklogManagerForm_PS4Abandoned);
 
-        StatsForm_PS4PercentLbl = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4PercentLbl->setObjectName(QStringLiteral("StatsForm_PS4PercentLbl"));
-        StatsForm_PS4PercentLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PS4PercentLbl->setFont(font1);
+        BacklogManagerForm_PS4PercentLbl = new QLabel(BacklogManagerForm_PS4Stats);
+        BacklogManagerForm_PS4PercentLbl->setObjectName(QStringLiteral("BacklogManagerForm_PS4PercentLbl"));
+        BacklogManagerForm_PS4PercentLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PS4PercentLbl->setFont(font1);
 
-        formLayout_3->setWidget(4, QFormLayout::LabelRole, StatsForm_PS4PercentLbl);
+        formLayout_3->setWidget(4, QFormLayout::LabelRole, BacklogManagerForm_PS4PercentLbl);
 
-        StatsForm_PS4Percent = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4Percent->setObjectName(QStringLiteral("StatsForm_PS4Percent"));
+        BacklogManagerForm_PS4Percent = new QLabel(BacklogManagerForm_PS4Stats);
+        BacklogManagerForm_PS4Percent->setObjectName(QStringLiteral("BacklogManagerForm_PS4Percent"));
 
-        formLayout_3->setWidget(4, QFormLayout::FieldRole, StatsForm_PS4Percent);
+        formLayout_3->setWidget(4, QFormLayout::FieldRole, BacklogManagerForm_PS4Percent);
 
 
-        horizontalLayout_2->addWidget(StatsForm_PS4Stats);
+        horizontalLayout_2->addWidget(BacklogManagerForm_PS4Stats);
 
-        StatsForm_PS3Stats = new QGroupBox(BacklogManagerForm_StatsGroup);
-        StatsForm_PS3Stats->setObjectName(QStringLiteral("StatsForm_PS3Stats"));
-        StatsForm_PS3Stats->setFont(font1);
-        formLayout_2 = new QFormLayout(StatsForm_PS3Stats);
+        BacklogManagerForm_PS3Stats = new QGroupBox(BacklogManagerForm_StatsGroup);
+        BacklogManagerForm_PS3Stats->setObjectName(QStringLiteral("BacklogManagerForm_PS3Stats"));
+        BacklogManagerForm_PS3Stats->setFont(font1);
+        formLayout_2 = new QFormLayout(BacklogManagerForm_PS3Stats);
         formLayout_2->setSpacing(6);
         formLayout_2->setContentsMargins(11, 11, 11, 11);
         formLayout_2->setObjectName(QStringLiteral("formLayout_2"));
-        StatsForm_PS3NotPlayedLbl = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3NotPlayedLbl->setObjectName(QStringLiteral("StatsForm_PS3NotPlayedLbl"));
-        StatsForm_PS3NotPlayedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PS3NotPlayedLbl->setFont(font1);
+        BacklogManagerForm_PS3NotPlayedLbl = new QLabel(BacklogManagerForm_PS3Stats);
+        BacklogManagerForm_PS3NotPlayedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PS3NotPlayedLbl"));
+        BacklogManagerForm_PS3NotPlayedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PS3NotPlayedLbl->setFont(font1);
 
-        formLayout_2->setWidget(0, QFormLayout::LabelRole, StatsForm_PS3NotPlayedLbl);
+        formLayout_2->setWidget(0, QFormLayout::LabelRole, BacklogManagerForm_PS3NotPlayedLbl);
 
-        StatsForm_PS3NotPlayed = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3NotPlayed->setObjectName(QStringLiteral("StatsForm_PS3NotPlayed"));
+        BacklogManagerForm_PS3NotPlayed = new QLabel(BacklogManagerForm_PS3Stats);
+        BacklogManagerForm_PS3NotPlayed->setObjectName(QStringLiteral("BacklogManagerForm_PS3NotPlayed"));
 
-        formLayout_2->setWidget(0, QFormLayout::FieldRole, StatsForm_PS3NotPlayed);
+        formLayout_2->setWidget(0, QFormLayout::FieldRole, BacklogManagerForm_PS3NotPlayed);
 
-        StatsForm_PS3PlayedLbl = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3PlayedLbl->setObjectName(QStringLiteral("StatsForm_PS3PlayedLbl"));
-        StatsForm_PS3PlayedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PS3PlayedLbl->setFont(font1);
+        BacklogManagerForm_PS3PlayedLbl = new QLabel(BacklogManagerForm_PS3Stats);
+        BacklogManagerForm_PS3PlayedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PS3PlayedLbl"));
+        BacklogManagerForm_PS3PlayedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PS3PlayedLbl->setFont(font1);
 
-        formLayout_2->setWidget(1, QFormLayout::LabelRole, StatsForm_PS3PlayedLbl);
+        formLayout_2->setWidget(1, QFormLayout::LabelRole, BacklogManagerForm_PS3PlayedLbl);
 
-        StatsForm_PS3Played = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3Played->setObjectName(QStringLiteral("StatsForm_PS3Played"));
+        BacklogManagerForm_PS3Played = new QLabel(BacklogManagerForm_PS3Stats);
+        BacklogManagerForm_PS3Played->setObjectName(QStringLiteral("BacklogManagerForm_PS3Played"));
 
-        formLayout_2->setWidget(1, QFormLayout::FieldRole, StatsForm_PS3Played);
+        formLayout_2->setWidget(1, QFormLayout::FieldRole, BacklogManagerForm_PS3Played);
 
-        StatsForm_PS3CompleteLbl = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3CompleteLbl->setObjectName(QStringLiteral("StatsForm_PS3CompleteLbl"));
-        StatsForm_PS3CompleteLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PS3CompleteLbl->setFont(font1);
+        BacklogManagerForm_PS3CompleteLbl = new QLabel(BacklogManagerForm_PS3Stats);
+        BacklogManagerForm_PS3CompleteLbl->setObjectName(QStringLiteral("BacklogManagerForm_PS3CompleteLbl"));
+        BacklogManagerForm_PS3CompleteLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PS3CompleteLbl->setFont(font1);
 
-        formLayout_2->setWidget(2, QFormLayout::LabelRole, StatsForm_PS3CompleteLbl);
+        formLayout_2->setWidget(2, QFormLayout::LabelRole, BacklogManagerForm_PS3CompleteLbl);
 
-        StatsForm_PS3Complete = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3Complete->setObjectName(QStringLiteral("StatsForm_PS3Complete"));
+        BacklogManagerForm_PS3Complete = new QLabel(BacklogManagerForm_PS3Stats);
+        BacklogManagerForm_PS3Complete->setObjectName(QStringLiteral("BacklogManagerForm_PS3Complete"));
 
-        formLayout_2->setWidget(2, QFormLayout::FieldRole, StatsForm_PS3Complete);
+        formLayout_2->setWidget(2, QFormLayout::FieldRole, BacklogManagerForm_PS3Complete);
 
-        StatsForm_PS3AbandonedLbl = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3AbandonedLbl->setObjectName(QStringLiteral("StatsForm_PS3AbandonedLbl"));
-        StatsForm_PS3AbandonedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PS3AbandonedLbl->setFont(font1);
+        BacklogManagerForm_PS3AbandonedLbl = new QLabel(BacklogManagerForm_PS3Stats);
+        BacklogManagerForm_PS3AbandonedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PS3AbandonedLbl"));
+        BacklogManagerForm_PS3AbandonedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PS3AbandonedLbl->setFont(font1);
 
-        formLayout_2->setWidget(3, QFormLayout::LabelRole, StatsForm_PS3AbandonedLbl);
+        formLayout_2->setWidget(3, QFormLayout::LabelRole, BacklogManagerForm_PS3AbandonedLbl);
 
-        StatsForm_PS3Abandoned = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3Abandoned->setObjectName(QStringLiteral("StatsForm_PS3Abandoned"));
+        BacklogManagerForm_PS3Abandoned = new QLabel(BacklogManagerForm_PS3Stats);
+        BacklogManagerForm_PS3Abandoned->setObjectName(QStringLiteral("BacklogManagerForm_PS3Abandoned"));
 
-        formLayout_2->setWidget(3, QFormLayout::FieldRole, StatsForm_PS3Abandoned);
+        formLayout_2->setWidget(3, QFormLayout::FieldRole, BacklogManagerForm_PS3Abandoned);
 
-        StatsForm_PS3PercentLbl = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3PercentLbl->setObjectName(QStringLiteral("StatsForm_PS3PercentLbl"));
-        StatsForm_PS3PercentLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PS3PercentLbl->setFont(font1);
+        BacklogManagerForm_PS3PercentLbl = new QLabel(BacklogManagerForm_PS3Stats);
+        BacklogManagerForm_PS3PercentLbl->setObjectName(QStringLiteral("BacklogManagerForm_PS3PercentLbl"));
+        BacklogManagerForm_PS3PercentLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PS3PercentLbl->setFont(font1);
 
-        formLayout_2->setWidget(4, QFormLayout::LabelRole, StatsForm_PS3PercentLbl);
+        formLayout_2->setWidget(4, QFormLayout::LabelRole, BacklogManagerForm_PS3PercentLbl);
 
-        StatsForm_PS3Percent = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3Percent->setObjectName(QStringLiteral("StatsForm_PS3Percent"));
+        BacklogManagerForm_PS3Percent = new QLabel(BacklogManagerForm_PS3Stats);
+        BacklogManagerForm_PS3Percent->setObjectName(QStringLiteral("BacklogManagerForm_PS3Percent"));
 
-        formLayout_2->setWidget(4, QFormLayout::FieldRole, StatsForm_PS3Percent);
+        formLayout_2->setWidget(4, QFormLayout::FieldRole, BacklogManagerForm_PS3Percent);
 
 
-        horizontalLayout_2->addWidget(StatsForm_PS3Stats);
+        horizontalLayout_2->addWidget(BacklogManagerForm_PS3Stats);
 
-        StatsForm_PSVitaStats = new QGroupBox(BacklogManagerForm_StatsGroup);
-        StatsForm_PSVitaStats->setObjectName(QStringLiteral("StatsForm_PSVitaStats"));
-        StatsForm_PSVitaStats->setFont(font1);
-        formLayout = new QFormLayout(StatsForm_PSVitaStats);
+        BacklogManagerForm_PSVitaStats = new QGroupBox(BacklogManagerForm_StatsGroup);
+        BacklogManagerForm_PSVitaStats->setObjectName(QStringLiteral("BacklogManagerForm_PSVitaStats"));
+        BacklogManagerForm_PSVitaStats->setFont(font1);
+        formLayout = new QFormLayout(BacklogManagerForm_PSVitaStats);
         formLayout->setSpacing(6);
         formLayout->setContentsMargins(11, 11, 11, 11);
         formLayout->setObjectName(QStringLiteral("formLayout"));
-        StatsForm_PSVitaNotPlayedLbl = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaNotPlayedLbl->setObjectName(QStringLiteral("StatsForm_PSVitaNotPlayedLbl"));
-        StatsForm_PSVitaNotPlayedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PSVitaNotPlayedLbl->setFont(font1);
+        BacklogManagerForm_PSVitaNotPlayedLbl = new QLabel(BacklogManagerForm_PSVitaStats);
+        BacklogManagerForm_PSVitaNotPlayedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PSVitaNotPlayedLbl"));
+        BacklogManagerForm_PSVitaNotPlayedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PSVitaNotPlayedLbl->setFont(font1);
 
-        formLayout->setWidget(0, QFormLayout::LabelRole, StatsForm_PSVitaNotPlayedLbl);
+        formLayout->setWidget(0, QFormLayout::LabelRole, BacklogManagerForm_PSVitaNotPlayedLbl);
 
-        StatsForm_PSVitaNotPlayed = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaNotPlayed->setObjectName(QStringLiteral("StatsForm_PSVitaNotPlayed"));
+        BacklogManagerForm_PSVitaNotPlayed = new QLabel(BacklogManagerForm_PSVitaStats);
+        BacklogManagerForm_PSVitaNotPlayed->setObjectName(QStringLiteral("BacklogManagerForm_PSVitaNotPlayed"));
 
-        formLayout->setWidget(0, QFormLayout::FieldRole, StatsForm_PSVitaNotPlayed);
+        formLayout->setWidget(0, QFormLayout::FieldRole, BacklogManagerForm_PSVitaNotPlayed);
 
-        StatsForm_PSVitaPlayedLbl = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaPlayedLbl->setObjectName(QStringLiteral("StatsForm_PSVitaPlayedLbl"));
-        StatsForm_PSVitaPlayedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PSVitaPlayedLbl->setFont(font1);
+        BacklogManagerForm_PSVitaPlayedLbl = new QLabel(BacklogManagerForm_PSVitaStats);
+        BacklogManagerForm_PSVitaPlayedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PSVitaPlayedLbl"));
+        BacklogManagerForm_PSVitaPlayedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PSVitaPlayedLbl->setFont(font1);
 
-        formLayout->setWidget(1, QFormLayout::LabelRole, StatsForm_PSVitaPlayedLbl);
+        formLayout->setWidget(1, QFormLayout::LabelRole, BacklogManagerForm_PSVitaPlayedLbl);
 
-        StatsForm_PSVitaPlayed = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaPlayed->setObjectName(QStringLiteral("StatsForm_PSVitaPlayed"));
+        BacklogManagerForm_PSVitaPlayed = new QLabel(BacklogManagerForm_PSVitaStats);
+        BacklogManagerForm_PSVitaPlayed->setObjectName(QStringLiteral("BacklogManagerForm_PSVitaPlayed"));
 
-        formLayout->setWidget(1, QFormLayout::FieldRole, StatsForm_PSVitaPlayed);
+        formLayout->setWidget(1, QFormLayout::FieldRole, BacklogManagerForm_PSVitaPlayed);
 
-        StatsForm_PSVitaCompleteLbl = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaCompleteLbl->setObjectName(QStringLiteral("StatsForm_PSVitaCompleteLbl"));
-        StatsForm_PSVitaCompleteLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PSVitaCompleteLbl->setFont(font1);
+        BacklogManagerForm_PSVitaCompleteLbl = new QLabel(BacklogManagerForm_PSVitaStats);
+        BacklogManagerForm_PSVitaCompleteLbl->setObjectName(QStringLiteral("BacklogManagerForm_PSVitaCompleteLbl"));
+        BacklogManagerForm_PSVitaCompleteLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PSVitaCompleteLbl->setFont(font1);
 
-        formLayout->setWidget(2, QFormLayout::LabelRole, StatsForm_PSVitaCompleteLbl);
+        formLayout->setWidget(2, QFormLayout::LabelRole, BacklogManagerForm_PSVitaCompleteLbl);
 
-        StatsForm_PSVitaComplete = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaComplete->setObjectName(QStringLiteral("StatsForm_PSVitaComplete"));
+        BacklogManagerForm_PSVitaComplete = new QLabel(BacklogManagerForm_PSVitaStats);
+        BacklogManagerForm_PSVitaComplete->setObjectName(QStringLiteral("BacklogManagerForm_PSVitaComplete"));
 
-        formLayout->setWidget(2, QFormLayout::FieldRole, StatsForm_PSVitaComplete);
+        formLayout->setWidget(2, QFormLayout::FieldRole, BacklogManagerForm_PSVitaComplete);
 
-        StatsForm_PSVitaAbandonedLbl = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaAbandonedLbl->setObjectName(QStringLiteral("StatsForm_PSVitaAbandonedLbl"));
-        StatsForm_PSVitaAbandonedLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PSVitaAbandonedLbl->setFont(font1);
+        BacklogManagerForm_PSVitaAbandonedLbl = new QLabel(BacklogManagerForm_PSVitaStats);
+        BacklogManagerForm_PSVitaAbandonedLbl->setObjectName(QStringLiteral("BacklogManagerForm_PSVitaAbandonedLbl"));
+        BacklogManagerForm_PSVitaAbandonedLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PSVitaAbandonedLbl->setFont(font1);
 
-        formLayout->setWidget(3, QFormLayout::LabelRole, StatsForm_PSVitaAbandonedLbl);
+        formLayout->setWidget(3, QFormLayout::LabelRole, BacklogManagerForm_PSVitaAbandonedLbl);
 
-        StatsForm_PSVitaAbandoned = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaAbandoned->setObjectName(QStringLiteral("StatsForm_PSVitaAbandoned"));
+        BacklogManagerForm_PSVitaAbandoned = new QLabel(BacklogManagerForm_PSVitaStats);
+        BacklogManagerForm_PSVitaAbandoned->setObjectName(QStringLiteral("BacklogManagerForm_PSVitaAbandoned"));
 
-        formLayout->setWidget(3, QFormLayout::FieldRole, StatsForm_PSVitaAbandoned);
+        formLayout->setWidget(3, QFormLayout::FieldRole, BacklogManagerForm_PSVitaAbandoned);
 
-        StatsForm_PSVitaPercentLbl = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaPercentLbl->setObjectName(QStringLiteral("StatsForm_PSVitaPercentLbl"));
-        StatsForm_PSVitaPercentLbl->setMinimumSize(QSize(121, 21));
-        StatsForm_PSVitaPercentLbl->setFont(font1);
+        BacklogManagerForm_PSVitaPercentLbl = new QLabel(BacklogManagerForm_PSVitaStats);
+        BacklogManagerForm_PSVitaPercentLbl->setObjectName(QStringLiteral("BacklogManagerForm_PSVitaPercentLbl"));
+        BacklogManagerForm_PSVitaPercentLbl->setMinimumSize(QSize(121, 21));
+        BacklogManagerForm_PSVitaPercentLbl->setFont(font1);
 
-        formLayout->setWidget(4, QFormLayout::LabelRole, StatsForm_PSVitaPercentLbl);
+        formLayout->setWidget(4, QFormLayout::LabelRole, BacklogManagerForm_PSVitaPercentLbl);
 
-        StatsForm_PSVitaPercent = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaPercent->setObjectName(QStringLiteral("StatsForm_PSVitaPercent"));
+        BacklogManagerForm_PSVitaPercent = new QLabel(BacklogManagerForm_PSVitaStats);
+        BacklogManagerForm_PSVitaPercent->setObjectName(QStringLiteral("BacklogManagerForm_PSVitaPercent"));
 
-        formLayout->setWidget(4, QFormLayout::FieldRole, StatsForm_PSVitaPercent);
+        formLayout->setWidget(4, QFormLayout::FieldRole, BacklogManagerForm_PSVitaPercent);
 
 
-        horizontalLayout_2->addWidget(StatsForm_PSVitaStats);
+        horizontalLayout_2->addWidget(BacklogManagerForm_PSVitaStats);
 
 
         verticalLayout->addWidget(BacklogManagerForm_StatsGroup);
@@ -652,50 +652,50 @@ public:
         BacklogManagerForm_NextGamePlatform->setText(QString());
         BacklogManagerForm_NextGameChooseButton->setText(QApplication::translate("BacklogManagerForm", "Choose Again", nullptr));
         BacklogManagerForm_StatsGroup->setTitle(QApplication::translate("BacklogManagerForm", "Stats", nullptr));
-        StatsForm_PCStats->setTitle(QApplication::translate("BacklogManagerForm", "PC", nullptr));
-        StatsForm_PCNotPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Not Played:", nullptr));
-        StatsForm_PCNotPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PCPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Played:", nullptr));
-        StatsForm_PCPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PCCompleteLbl->setText(QApplication::translate("BacklogManagerForm", "Complete:", nullptr));
-        StatsForm_PCComplete->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PCAbandonedLbl->setText(QApplication::translate("BacklogManagerForm", "Abandoned:", nullptr));
-        StatsForm_PCAbandoned->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PCPercentLbl->setText(QApplication::translate("BacklogManagerForm", "Done Percentage:", nullptr));
-        StatsForm_PCPercent->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PS4Stats->setTitle(QApplication::translate("BacklogManagerForm", "Playstation 4", nullptr));
-        StatsForm_PS4NotPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Not Played:", nullptr));
-        StatsForm_PS4NotPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PS4PlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Played:", nullptr));
-        StatsForm_PS4Played->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PS4CompleteLbl->setText(QApplication::translate("BacklogManagerForm", "Complete:", nullptr));
-        StatsForm_PS4Complete->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PS4AbandonedLbl->setText(QApplication::translate("BacklogManagerForm", "Abandoned:", nullptr));
-        StatsForm_PS4Abandoned->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PS4PercentLbl->setText(QApplication::translate("BacklogManagerForm", "Done Percentage:", nullptr));
-        StatsForm_PS4Percent->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PS3Stats->setTitle(QApplication::translate("BacklogManagerForm", "Playstation 3", nullptr));
-        StatsForm_PS3NotPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Not Played:", nullptr));
-        StatsForm_PS3NotPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PS3PlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Played:", nullptr));
-        StatsForm_PS3Played->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PS3CompleteLbl->setText(QApplication::translate("BacklogManagerForm", "Complete:", nullptr));
-        StatsForm_PS3Complete->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PS3AbandonedLbl->setText(QApplication::translate("BacklogManagerForm", "Abandoned:", nullptr));
-        StatsForm_PS3Abandoned->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PS3PercentLbl->setText(QApplication::translate("BacklogManagerForm", "Done Percentage:", nullptr));
-        StatsForm_PS3Percent->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PSVitaStats->setTitle(QApplication::translate("BacklogManagerForm", "Playstation Vita", nullptr));
-        StatsForm_PSVitaNotPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Not Played:", nullptr));
-        StatsForm_PSVitaNotPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PSVitaPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Played:", nullptr));
-        StatsForm_PSVitaPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PSVitaCompleteLbl->setText(QApplication::translate("BacklogManagerForm", "Complete:", nullptr));
-        StatsForm_PSVitaComplete->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PSVitaAbandonedLbl->setText(QApplication::translate("BacklogManagerForm", "Abandoned:", nullptr));
-        StatsForm_PSVitaAbandoned->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
-        StatsForm_PSVitaPercentLbl->setText(QApplication::translate("BacklogManagerForm", "Done Percentage:", nullptr));
-        StatsForm_PSVitaPercent->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PCStats->setTitle(QApplication::translate("BacklogManagerForm", "PC", nullptr));
+        BacklogManagerForm_PCNotPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Not Played:", nullptr));
+        BacklogManagerForm_PCNotPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PCPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Played:", nullptr));
+        BacklogManagerForm_PCPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PCCompleteLbl->setText(QApplication::translate("BacklogManagerForm", "Complete:", nullptr));
+        BacklogManagerForm_PCComplete->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PCAbandonedLbl->setText(QApplication::translate("BacklogManagerForm", "Abandoned:", nullptr));
+        BacklogManagerForm_PCAbandoned->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PCPercentLbl->setText(QApplication::translate("BacklogManagerForm", "Done Percentage:", nullptr));
+        BacklogManagerForm_PCPercent->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PS4Stats->setTitle(QApplication::translate("BacklogManagerForm", "Playstation 4", nullptr));
+        BacklogManagerForm_PS4NotPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Not Played:", nullptr));
+        BacklogManagerForm_PS4NotPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PS4PlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Played:", nullptr));
+        BacklogManagerForm_PS4Played->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PS4CompleteLbl->setText(QApplication::translate("BacklogManagerForm", "Complete:", nullptr));
+        BacklogManagerForm_PS4Complete->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PS4AbandonedLbl->setText(QApplication::translate("BacklogManagerForm", "Abandoned:", nullptr));
+        BacklogManagerForm_PS4Abandoned->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PS4PercentLbl->setText(QApplication::translate("BacklogManagerForm", "Done Percentage:", nullptr));
+        BacklogManagerForm_PS4Percent->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PS3Stats->setTitle(QApplication::translate("BacklogManagerForm", "Playstation 3", nullptr));
+        BacklogManagerForm_PS3NotPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Not Played:", nullptr));
+        BacklogManagerForm_PS3NotPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PS3PlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Played:", nullptr));
+        BacklogManagerForm_PS3Played->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PS3CompleteLbl->setText(QApplication::translate("BacklogManagerForm", "Complete:", nullptr));
+        BacklogManagerForm_PS3Complete->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PS3AbandonedLbl->setText(QApplication::translate("BacklogManagerForm", "Abandoned:", nullptr));
+        BacklogManagerForm_PS3Abandoned->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PS3PercentLbl->setText(QApplication::translate("BacklogManagerForm", "Done Percentage:", nullptr));
+        BacklogManagerForm_PS3Percent->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PSVitaStats->setTitle(QApplication::translate("BacklogManagerForm", "Playstation Vita", nullptr));
+        BacklogManagerForm_PSVitaNotPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Not Played:", nullptr));
+        BacklogManagerForm_PSVitaNotPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PSVitaPlayedLbl->setText(QApplication::translate("BacklogManagerForm", "Played:", nullptr));
+        BacklogManagerForm_PSVitaPlayed->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PSVitaCompleteLbl->setText(QApplication::translate("BacklogManagerForm", "Complete:", nullptr));
+        BacklogManagerForm_PSVitaComplete->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PSVitaAbandonedLbl->setText(QApplication::translate("BacklogManagerForm", "Abandoned:", nullptr));
+        BacklogManagerForm_PSVitaAbandoned->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
+        BacklogManagerForm_PSVitaPercentLbl->setText(QApplication::translate("BacklogManagerForm", "Done Percentage:", nullptr));
+        BacklogManagerForm_PSVitaPercent->setText(QApplication::translate("BacklogManagerForm", "Empty", nullptr));
         BacklogManagerForm_GameListGroup->setTitle(QApplication::translate("BacklogManagerForm", "Game List", nullptr));
         QTableWidgetItem *___qtablewidgetitem = BacklogManagerForm_GameList->horizontalHeaderItem(0);
         ___qtablewidgetitem->setText(QApplication::translate("BacklogManagerForm", "Game Name", nullptr));

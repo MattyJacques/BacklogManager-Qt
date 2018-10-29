@@ -83,6 +83,9 @@ private:
 
   // Quit the application
   void Quit();
+
+  // Update the stats with the given stats
+  void UpdateStats(const QVector<float>& a_Stats);
   
   GameCollection* m_GameCollection;
 
@@ -102,4 +105,24 @@ private:
   QAction* m_OwnedFilter;
   QAction* m_NotOwnedFilter;
 
+  QLabel* m_notPlayedPC;
+  QLabel* m_notPlayedPS4;
+  QLabel* m_notPlayedPS3;
+  QLabel* m_notPlayedPSVita;
+  QLabel* m_playedPC;
+  QLabel* m_playedPS4;
+  QLabel* m_playedPS3;
+  QLabel* m_playedPSVita;
+  QLabel* m_completePC;
+  QLabel* m_completePS4;
+  QLabel* m_completePS3;
+  QLabel* m_completePSVita;
+  QLabel* m_abandonedPC;
+  QLabel* m_abandonedPS4;
+  QLabel* m_abandonedPS3;
+  QLabel* m_abandonedPSVita;
+  QLabel* m_percentPC;
+  QLabel* m_percentPS4;
+  QLabel* m_percentPS3;
+  QLabel* m_percentPSVita;
 };

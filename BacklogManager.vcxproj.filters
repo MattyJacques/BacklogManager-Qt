@@ -15,10 +15,6 @@
       <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
     </Filter>
-    <Filter Include="Generated Files">
-      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
@@ -34,9 +30,6 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="UI">
-      <UniqueIdentifier>{043a5848-1696-42e1-bd2f-66a219f2c48f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -73,38 +66,29 @@
     <ClCompile Include="Source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Debug\moc_GameForm.cpp">
+    <ClCompile Include="GeneratedFiles\Debug\moc_GameForm.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="Release\moc_GameForm.cpp">
+    <ClCompile Include="GeneratedFiles\Release\moc_GameForm.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="Debug\moc_GameStats.cpp">
+    <ClCompile Include="GeneratedFiles\Debug\moc_FilterForm.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="Release\moc_GameStats.cpp">
+    <ClCompile Include="GeneratedFiles\Release\moc_FilterForm.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="Debug\moc_AboutForm.cpp">
+    <ClCompile Include="GeneratedFiles\Debug\moc_BacklogManager.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="Release\moc_AboutForm.cpp">
+    <ClCompile Include="GeneratedFiles\Release\moc_BacklogManager.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="Debug\moc_FilterForm.cpp">
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutForm.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="Release\moc_FilterForm.cpp">
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutForm.cpp">
       <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Debug\moc_BacklogManager.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Release\moc_BacklogManager.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\UI\GeneratedFiles\qrc_BacklogManagerForm.cpp">
-      <Filter>UI</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -143,14 +127,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="debug\moc_predefs.h.cbt">
-      <Filter>Generated Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="release\moc_predefs.h.cbt">
-      <Filter>Generated Files</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
     <CustomBuild Include="Source\UI\AboutForm.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
@@ -169,40 +145,5 @@
     <CustomBuild Include="Source\UI\GameStats.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_AboutForm.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_AddGame.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_BacklogManagerForm.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_FilterForm.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_GameForm.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_GameStats.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\UI\GeneratedFiles\ui_AboutForm.h">
-      <Filter>UI</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\UI\GeneratedFiles\ui_BacklogManagerForm.h">
-      <Filter>UI</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\UI\GeneratedFiles\ui_FilterForm.h">
-      <Filter>UI</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\UI\GeneratedFiles\ui_GameForm.h">
-      <Filter>UI</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\UI\GeneratedFiles\ui_GameStats.h">
-      <Filter>UI</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

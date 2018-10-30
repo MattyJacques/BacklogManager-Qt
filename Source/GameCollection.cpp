@@ -465,7 +465,8 @@ void GameCollection::RefreshTable()
 { // Remove everything from the table and reenter items, using filters
   
   // Clear the table
-  m_GameTable->clear();
+  //m_GameTable->clear();
+  m_GameTable->clearContents();
   m_GameTable->setRowCount(0);
 
   // Add games to table

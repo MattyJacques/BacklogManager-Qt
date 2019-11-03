@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'GameForm.ui'
 **
-** Created by: Qt User Interface Compiler version 5.10.0
+** Created by: Qt User Interface Compiler version 5.12.5
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,15 +10,12 @@
 #define UI_GAMEFORM_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QGroupBox>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 
@@ -42,45 +39,45 @@ public:
     void setupUi(QDialog *GameForm)
     {
         if (GameForm->objectName().isEmpty())
-            GameForm->setObjectName(QStringLiteral("GameForm"));
+            GameForm->setObjectName(QString::fromUtf8("GameForm"));
         GameForm->setWindowModality(Qt::ApplicationModal);
         GameForm->resize(211, 261);
         GameForm->setMinimumSize(QSize(211, 261));
         GameForm->setMaximumSize(QSize(211, 261));
         GameForm_ButtonBox = new QDialogButtonBox(GameForm);
-        GameForm_ButtonBox->setObjectName(QStringLiteral("GameForm_ButtonBox"));
+        GameForm_ButtonBox->setObjectName(QString::fromUtf8("GameForm_ButtonBox"));
         GameForm_ButtonBox->setGeometry(QRect(10, 220, 191, 32));
         GameForm_ButtonBox->setOrientation(Qt::Horizontal);
         GameForm_ButtonBox->setStandardButtons(QDialogButtonBox::Cancel|QDialogButtonBox::Ok);
         GameForm_NameLabel = new QLabel(GameForm);
-        GameForm_NameLabel->setObjectName(QStringLiteral("GameForm_NameLabel"));
+        GameForm_NameLabel->setObjectName(QString::fromUtf8("GameForm_NameLabel"));
         GameForm_NameLabel->setGeometry(QRect(10, 10, 71, 16));
         GameForm_StatusLabel = new QLabel(GameForm);
-        GameForm_StatusLabel->setObjectName(QStringLiteral("GameForm_StatusLabel"));
+        GameForm_StatusLabel->setObjectName(QString::fromUtf8("GameForm_StatusLabel"));
         GameForm_StatusLabel->setGeometry(QRect(10, 160, 71, 16));
         GameForm_PlayStatus = new QComboBox(GameForm);
-        GameForm_PlayStatus->setObjectName(QStringLiteral("GameForm_PlayStatus"));
+        GameForm_PlayStatus->setObjectName(QString::fromUtf8("GameForm_PlayStatus"));
         GameForm_PlayStatus->setGeometry(QRect(90, 160, 111, 20));
         GameForm_OwnedCheck = new QCheckBox(GameForm);
-        GameForm_OwnedCheck->setObjectName(QStringLiteral("GameForm_OwnedCheck"));
+        GameForm_OwnedCheck->setObjectName(QString::fromUtf8("GameForm_OwnedCheck"));
         GameForm_OwnedCheck->setGeometry(QRect(10, 190, 191, 17));
         GameForm_PlatformsGroup = new QGroupBox(GameForm);
-        GameForm_PlatformsGroup->setObjectName(QStringLiteral("GameForm_PlatformsGroup"));
+        GameForm_PlatformsGroup->setObjectName(QString::fromUtf8("GameForm_PlatformsGroup"));
         GameForm_PlatformsGroup->setGeometry(QRect(10, 40, 191, 111));
         GameForm_PCCheck = new QCheckBox(GameForm_PlatformsGroup);
-        GameForm_PCCheck->setObjectName(QStringLiteral("GameForm_PCCheck"));
+        GameForm_PCCheck->setObjectName(QString::fromUtf8("GameForm_PCCheck"));
         GameForm_PCCheck->setGeometry(QRect(20, 20, 70, 17));
         GameForm_PS4Check = new QCheckBox(GameForm_PlatformsGroup);
-        GameForm_PS4Check->setObjectName(QStringLiteral("GameForm_PS4Check"));
+        GameForm_PS4Check->setObjectName(QString::fromUtf8("GameForm_PS4Check"));
         GameForm_PS4Check->setGeometry(QRect(20, 40, 91, 17));
         GameForm_PS3Check = new QCheckBox(GameForm_PlatformsGroup);
-        GameForm_PS3Check->setObjectName(QStringLiteral("GameForm_PS3Check"));
+        GameForm_PS3Check->setObjectName(QString::fromUtf8("GameForm_PS3Check"));
         GameForm_PS3Check->setGeometry(QRect(20, 60, 91, 17));
         GameForm_PSVitaCheck = new QCheckBox(GameForm_PlatformsGroup);
-        GameForm_PSVitaCheck->setObjectName(QStringLiteral("GameForm_PSVitaCheck"));
+        GameForm_PSVitaCheck->setObjectName(QString::fromUtf8("GameForm_PSVitaCheck"));
         GameForm_PSVitaCheck->setGeometry(QRect(20, 80, 101, 17));
         GameForm_GameName = new QLineEdit(GameForm);
-        GameForm_GameName->setObjectName(QStringLiteral("GameForm_GameName"));
+        GameForm_GameName->setObjectName(QString::fromUtf8("GameForm_GameName"));
         GameForm_GameName->setGeometry(QRect(90, 10, 113, 20));
         QWidget::setTabOrder(GameForm_GameName, GameForm_PCCheck);
         QWidget::setTabOrder(GameForm_PCCheck, GameForm_PS4Check);

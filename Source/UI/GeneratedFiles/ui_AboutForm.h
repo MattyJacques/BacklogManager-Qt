@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'AboutForm.ui'
 **
-** Created by: Qt User Interface Compiler version 5.10.0
+** Created by: Qt User Interface Compiler version 5.12.5
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,11 +10,8 @@
 #define UI_ABOUTFORM_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QVBoxLayout>
 
@@ -32,12 +29,12 @@ public:
     void setupUi(QDialog *AboutForm)
     {
         if (AboutForm->objectName().isEmpty())
-            AboutForm->setObjectName(QStringLiteral("AboutForm"));
+            AboutForm->setObjectName(QString::fromUtf8("AboutForm"));
         AboutForm->resize(400, 300);
         verticalLayout = new QVBoxLayout(AboutForm);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         AboutForm_Logo = new QLabel(AboutForm);
-        AboutForm_Logo->setObjectName(QStringLiteral("AboutForm_Logo"));
+        AboutForm_Logo->setObjectName(QString::fromUtf8("AboutForm_Logo"));
         AboutForm_Logo->setMinimumSize(QSize(131, 81));
         AboutForm_Logo->setLayoutDirection(Qt::LeftToRight);
         AboutForm_Logo->setPixmap(QPixmap(QString::fromUtf8(":/BacklogManagerForm/Resources/ApplicationIcon.ico")));
@@ -46,7 +43,7 @@ public:
         verticalLayout->addWidget(AboutForm_Logo);
 
         AboutForm_DeveloperName = new QLabel(AboutForm);
-        AboutForm_DeveloperName->setObjectName(QStringLiteral("AboutForm_DeveloperName"));
+        AboutForm_DeveloperName->setObjectName(QString::fromUtf8("AboutForm_DeveloperName"));
         AboutForm_DeveloperName->setMinimumSize(QSize(164, 16));
         AboutForm_DeveloperName->setMaximumSize(QSize(16777215, 16));
         QFont font;
@@ -57,7 +54,7 @@ public:
         verticalLayout->addWidget(AboutForm_DeveloperName);
 
         AboutForm_LinkedIn = new QLabel(AboutForm);
-        AboutForm_LinkedIn->setObjectName(QStringLiteral("AboutForm_LinkedIn"));
+        AboutForm_LinkedIn->setObjectName(QString::fromUtf8("AboutForm_LinkedIn"));
         AboutForm_LinkedIn->setMinimumSize(QSize(140, 16));
         AboutForm_LinkedIn->setMaximumSize(QSize(16777215, 16));
         AboutForm_LinkedIn->setFont(font);
@@ -66,7 +63,7 @@ public:
         verticalLayout->addWidget(AboutForm_LinkedIn);
 
         AboutForm_GitHub = new QLabel(AboutForm);
-        AboutForm_GitHub->setObjectName(QStringLiteral("AboutForm_GitHub"));
+        AboutForm_GitHub->setObjectName(QString::fromUtf8("AboutForm_GitHub"));
         AboutForm_GitHub->setMinimumSize(QSize(140, 16));
         AboutForm_GitHub->setMaximumSize(QSize(16777215, 16));
         AboutForm_GitHub->setFont(font);

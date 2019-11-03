@@ -106,3 +106,13 @@ GeneratedFiles/ui_BacklogManagerForm.h
 GeneratedFiles/ui_FilterForm.h
 GeneratedFiles/ui_GameForm.h
 GeneratedFiles/ui_GameStats.h
+
+x64/Release/BacklogManager.tlog/
+
+*.props
+
+x64/Debug/BacklogManager.vcxproj.FileListAbsolute.txt
+
+*.idx
+
+*.filters

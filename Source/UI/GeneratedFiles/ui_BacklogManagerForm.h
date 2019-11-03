@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'BacklogManagerForm.ui'
 **
-** Created by: Qt User Interface Compiler version 5.10.0
+** Created by: Qt User Interface Compiler version 5.12.5
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -12,7 +12,6 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QFormLayout>
 #include <QtWidgets/QGroupBox>
@@ -124,84 +123,84 @@ public:
     void setupUi(QMainWindow *BacklogManagerForm)
     {
         if (BacklogManagerForm->objectName().isEmpty())
-            BacklogManagerForm->setObjectName(QStringLiteral("BacklogManagerForm"));
+            BacklogManagerForm->setObjectName(QString::fromUtf8("BacklogManagerForm"));
         BacklogManagerForm->resize(831, 834);
         BacklogManagerForm->setMinimumSize(QSize(831, 0));
         BacklogManagerForm->setMaximumSize(QSize(831, 16777215));
         actionAddGame = new QAction(BacklogManagerForm);
-        actionAddGame->setObjectName(QStringLiteral("actionAddGame"));
+        actionAddGame->setObjectName(QString::fromUtf8("actionAddGame"));
         QIcon icon;
-        icon.addFile(QStringLiteral(":/BacklogManagerForm/Resources/Add Game.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/BacklogManagerForm/Resources/Add Game.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionAddGame->setIcon(icon);
         actionEditGame = new QAction(BacklogManagerForm);
-        actionEditGame->setObjectName(QStringLiteral("actionEditGame"));
+        actionEditGame->setObjectName(QString::fromUtf8("actionEditGame"));
         QIcon icon1;
-        icon1.addFile(QStringLiteral(":/BacklogManagerForm/Resources/Edit Game.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon1.addFile(QString::fromUtf8(":/BacklogManagerForm/Resources/Edit Game.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionEditGame->setIcon(icon1);
         actionDeleteGame = new QAction(BacklogManagerForm);
-        actionDeleteGame->setObjectName(QStringLiteral("actionDeleteGame"));
+        actionDeleteGame->setObjectName(QString::fromUtf8("actionDeleteGame"));
         QIcon icon2;
-        icon2.addFile(QStringLiteral(":/BacklogManagerForm/Resources/Delete Game.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon2.addFile(QString::fromUtf8(":/BacklogManagerForm/Resources/Delete Game.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionDeleteGame->setIcon(icon2);
         actionImportCSV = new QAction(BacklogManagerForm);
-        actionImportCSV->setObjectName(QStringLiteral("actionImportCSV"));
+        actionImportCSV->setObjectName(QString::fromUtf8("actionImportCSV"));
         actionClose = new QAction(BacklogManagerForm);
-        actionClose->setObjectName(QStringLiteral("actionClose"));
+        actionClose->setObjectName(QString::fromUtf8("actionClose"));
         actionFilterNotPlayed = new QAction(BacklogManagerForm);
-        actionFilterNotPlayed->setObjectName(QStringLiteral("actionFilterNotPlayed"));
+        actionFilterNotPlayed->setObjectName(QString::fromUtf8("actionFilterNotPlayed"));
         actionFilterNotPlayed->setCheckable(true);
         actionFilterPlayed = new QAction(BacklogManagerForm);
-        actionFilterPlayed->setObjectName(QStringLiteral("actionFilterPlayed"));
+        actionFilterPlayed->setObjectName(QString::fromUtf8("actionFilterPlayed"));
         actionFilterPlayed->setCheckable(true);
         actionFilterComplete = new QAction(BacklogManagerForm);
-        actionFilterComplete->setObjectName(QStringLiteral("actionFilterComplete"));
+        actionFilterComplete->setObjectName(QString::fromUtf8("actionFilterComplete"));
         actionFilterComplete->setCheckable(true);
         actionFilterAbandoned = new QAction(BacklogManagerForm);
-        actionFilterAbandoned->setObjectName(QStringLiteral("actionFilterAbandoned"));
+        actionFilterAbandoned->setObjectName(QString::fromUtf8("actionFilterAbandoned"));
         actionFilterAbandoned->setCheckable(true);
         actionFilterPC = new QAction(BacklogManagerForm);
-        actionFilterPC->setObjectName(QStringLiteral("actionFilterPC"));
+        actionFilterPC->setObjectName(QString::fromUtf8("actionFilterPC"));
         actionFilterPC->setCheckable(true);
         actionFilterPS4 = new QAction(BacklogManagerForm);
-        actionFilterPS4->setObjectName(QStringLiteral("actionFilterPS4"));
+        actionFilterPS4->setObjectName(QString::fromUtf8("actionFilterPS4"));
         actionFilterPS4->setCheckable(true);
         actionFilterPS3 = new QAction(BacklogManagerForm);
-        actionFilterPS3->setObjectName(QStringLiteral("actionFilterPS3"));
+        actionFilterPS3->setObjectName(QString::fromUtf8("actionFilterPS3"));
         actionFilterPS3->setCheckable(true);
         actionFilterPSVita = new QAction(BacklogManagerForm);
-        actionFilterPSVita->setObjectName(QStringLiteral("actionFilterPSVita"));
+        actionFilterPSVita->setObjectName(QString::fromUtf8("actionFilterPSVita"));
         actionFilterPSVita->setCheckable(true);
         actionFilterOwned = new QAction(BacklogManagerForm);
-        actionFilterOwned->setObjectName(QStringLiteral("actionFilterOwned"));
+        actionFilterOwned->setObjectName(QString::fromUtf8("actionFilterOwned"));
         actionFilterOwned->setCheckable(true);
         actionFilterNotOwned = new QAction(BacklogManagerForm);
-        actionFilterNotOwned->setObjectName(QStringLiteral("actionFilterNotOwned"));
+        actionFilterNotOwned->setObjectName(QString::fromUtf8("actionFilterNotOwned"));
         actionFilterNotOwned->setCheckable(true);
         actionShowStats = new QAction(BacklogManagerForm);
-        actionShowStats->setObjectName(QStringLiteral("actionShowStats"));
+        actionShowStats->setObjectName(QString::fromUtf8("actionShowStats"));
         QIcon icon3;
-        icon3.addFile(QStringLiteral(":/BacklogManagerForm/Resources/Game Stats.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon3.addFile(QString::fromUtf8(":/BacklogManagerForm/Resources/Game Stats.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionShowStats->setIcon(icon3);
         actionSetBackupPath = new QAction(BacklogManagerForm);
-        actionSetBackupPath->setObjectName(QStringLiteral("actionSetBackupPath"));
+        actionSetBackupPath->setObjectName(QString::fromUtf8("actionSetBackupPath"));
         actionAbout = new QAction(BacklogManagerForm);
-        actionAbout->setObjectName(QStringLiteral("actionAbout"));
+        actionAbout->setObjectName(QString::fromUtf8("actionAbout"));
         actionFilterGames = new QAction(BacklogManagerForm);
-        actionFilterGames->setObjectName(QStringLiteral("actionFilterGames"));
+        actionFilterGames->setObjectName(QString::fromUtf8("actionFilterGames"));
         QIcon icon4;
-        icon4.addFile(QStringLiteral(":/BacklogManagerForm/Resources/Filter Games.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon4.addFile(QString::fromUtf8(":/BacklogManagerForm/Resources/Filter Games.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionFilterGames->setIcon(icon4);
         centralWidget = new QWidget(BacklogManagerForm);
-        centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         verticalLayout = new QVBoxLayout(centralWidget);
         verticalLayout->setSpacing(6);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         BacklogManagerForm_NextGameGroup = new QGroupBox(centralWidget);
-        BacklogManagerForm_NextGameGroup->setObjectName(QStringLiteral("BacklogManagerForm_NextGameGroup"));
+        BacklogManagerForm_NextGameGroup->setObjectName(QString::fromUtf8("BacklogManagerForm_NextGameGroup"));
         BacklogManagerForm_NextGameGroup->setMinimumSize(QSize(801, 61));
         BacklogManagerForm_NextGameTitle = new QLabel(BacklogManagerForm_NextGameGroup);
-        BacklogManagerForm_NextGameTitle->setObjectName(QStringLiteral("BacklogManagerForm_NextGameTitle"));
+        BacklogManagerForm_NextGameTitle->setObjectName(QString::fromUtf8("BacklogManagerForm_NextGameTitle"));
         BacklogManagerForm_NextGameTitle->setGeometry(QRect(20, 20, 331, 21));
         QFont font;
         font.setPointSize(11);
@@ -209,91 +208,91 @@ public:
         font.setWeight(75);
         BacklogManagerForm_NextGameTitle->setFont(font);
         BacklogManagerForm_NextGamePlatform = new QLabel(BacklogManagerForm_NextGameGroup);
-        BacklogManagerForm_NextGamePlatform->setObjectName(QStringLiteral("BacklogManagerForm_NextGamePlatform"));
+        BacklogManagerForm_NextGamePlatform->setObjectName(QString::fromUtf8("BacklogManagerForm_NextGamePlatform"));
         BacklogManagerForm_NextGamePlatform->setGeometry(QRect(370, 20, 181, 21));
         BacklogManagerForm_NextGamePlatform->setFont(font);
         BacklogManagerForm_NextGameStatus = new QComboBox(BacklogManagerForm_NextGameGroup);
-        BacklogManagerForm_NextGameStatus->setObjectName(QStringLiteral("BacklogManagerForm_NextGameStatus"));
+        BacklogManagerForm_NextGameStatus->setObjectName(QString::fromUtf8("BacklogManagerForm_NextGameStatus"));
         BacklogManagerForm_NextGameStatus->setGeometry(QRect(570, 20, 111, 22));
         BacklogManagerForm_NextGameChooseButton = new QPushButton(BacklogManagerForm_NextGameGroup);
-        BacklogManagerForm_NextGameChooseButton->setObjectName(QStringLiteral("BacklogManagerForm_NextGameChooseButton"));
+        BacklogManagerForm_NextGameChooseButton->setObjectName(QString::fromUtf8("BacklogManagerForm_NextGameChooseButton"));
         BacklogManagerForm_NextGameChooseButton->setGeometry(QRect(700, 20, 81, 23));
 
         verticalLayout->addWidget(BacklogManagerForm_NextGameGroup);
 
         BacklogManagerForm_StatsGroup = new QGroupBox(centralWidget);
-        BacklogManagerForm_StatsGroup->setObjectName(QStringLiteral("BacklogManagerForm_StatsGroup"));
+        BacklogManagerForm_StatsGroup->setObjectName(QString::fromUtf8("BacklogManagerForm_StatsGroup"));
         BacklogManagerForm_StatsGroup->setMinimumSize(QSize(801, 201));
         horizontalLayout_2 = new QHBoxLayout(BacklogManagerForm_StatsGroup);
         horizontalLayout_2->setSpacing(6);
         horizontalLayout_2->setContentsMargins(11, 11, 11, 11);
-        horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         StatsForm_PCStats = new QGroupBox(BacklogManagerForm_StatsGroup);
-        StatsForm_PCStats->setObjectName(QStringLiteral("StatsForm_PCStats"));
+        StatsForm_PCStats->setObjectName(QString::fromUtf8("StatsForm_PCStats"));
         QFont font1;
         font1.setPointSize(10);
         StatsForm_PCStats->setFont(font1);
         formLayout_4 = new QFormLayout(StatsForm_PCStats);
         formLayout_4->setSpacing(6);
         formLayout_4->setContentsMargins(11, 11, 11, 11);
-        formLayout_4->setObjectName(QStringLiteral("formLayout_4"));
+        formLayout_4->setObjectName(QString::fromUtf8("formLayout_4"));
         StatsForm_PCNotPlayedLbl = new QLabel(StatsForm_PCStats);
-        StatsForm_PCNotPlayedLbl->setObjectName(QStringLiteral("StatsForm_PCNotPlayedLbl"));
+        StatsForm_PCNotPlayedLbl->setObjectName(QString::fromUtf8("StatsForm_PCNotPlayedLbl"));
         StatsForm_PCNotPlayedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PCNotPlayedLbl->setFont(font1);
 
         formLayout_4->setWidget(0, QFormLayout::LabelRole, StatsForm_PCNotPlayedLbl);
 
         StatsForm_PCNotPlayed = new QLabel(StatsForm_PCStats);
-        StatsForm_PCNotPlayed->setObjectName(QStringLiteral("StatsForm_PCNotPlayed"));
+        StatsForm_PCNotPlayed->setObjectName(QString::fromUtf8("StatsForm_PCNotPlayed"));
 
         formLayout_4->setWidget(0, QFormLayout::FieldRole, StatsForm_PCNotPlayed);
 
         StatsForm_PCPlayedLbl = new QLabel(StatsForm_PCStats);
-        StatsForm_PCPlayedLbl->setObjectName(QStringLiteral("StatsForm_PCPlayedLbl"));
+        StatsForm_PCPlayedLbl->setObjectName(QString::fromUtf8("StatsForm_PCPlayedLbl"));
         StatsForm_PCPlayedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PCPlayedLbl->setFont(font1);
 
         formLayout_4->setWidget(1, QFormLayout::LabelRole, StatsForm_PCPlayedLbl);
 
         StatsForm_PCPlayed = new QLabel(StatsForm_PCStats);
-        StatsForm_PCPlayed->setObjectName(QStringLiteral("StatsForm_PCPlayed"));
+        StatsForm_PCPlayed->setObjectName(QString::fromUtf8("StatsForm_PCPlayed"));
 
         formLayout_4->setWidget(1, QFormLayout::FieldRole, StatsForm_PCPlayed);
 
         StatsForm_PCCompleteLbl = new QLabel(StatsForm_PCStats);
-        StatsForm_PCCompleteLbl->setObjectName(QStringLiteral("StatsForm_PCCompleteLbl"));
+        StatsForm_PCCompleteLbl->setObjectName(QString::fromUtf8("StatsForm_PCCompleteLbl"));
         StatsForm_PCCompleteLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PCCompleteLbl->setFont(font1);
 
         formLayout_4->setWidget(2, QFormLayout::LabelRole, StatsForm_PCCompleteLbl);
 
         StatsForm_PCComplete = new QLabel(StatsForm_PCStats);
-        StatsForm_PCComplete->setObjectName(QStringLiteral("StatsForm_PCComplete"));
+        StatsForm_PCComplete->setObjectName(QString::fromUtf8("StatsForm_PCComplete"));
 
         formLayout_4->setWidget(2, QFormLayout::FieldRole, StatsForm_PCComplete);
 
         StatsForm_PCAbandonedLbl = new QLabel(StatsForm_PCStats);
-        StatsForm_PCAbandonedLbl->setObjectName(QStringLiteral("StatsForm_PCAbandonedLbl"));
+        StatsForm_PCAbandonedLbl->setObjectName(QString::fromUtf8("StatsForm_PCAbandonedLbl"));
         StatsForm_PCAbandonedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PCAbandonedLbl->setFont(font1);
 
         formLayout_4->setWidget(3, QFormLayout::LabelRole, StatsForm_PCAbandonedLbl);
 
         StatsForm_PCAbandoned = new QLabel(StatsForm_PCStats);
-        StatsForm_PCAbandoned->setObjectName(QStringLiteral("StatsForm_PCAbandoned"));
+        StatsForm_PCAbandoned->setObjectName(QString::fromUtf8("StatsForm_PCAbandoned"));
 
         formLayout_4->setWidget(3, QFormLayout::FieldRole, StatsForm_PCAbandoned);
 
         StatsForm_PCPercentLbl = new QLabel(StatsForm_PCStats);
-        StatsForm_PCPercentLbl->setObjectName(QStringLiteral("StatsForm_PCPercentLbl"));
+        StatsForm_PCPercentLbl->setObjectName(QString::fromUtf8("StatsForm_PCPercentLbl"));
         StatsForm_PCPercentLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PCPercentLbl->setFont(font1);
 
         formLayout_4->setWidget(4, QFormLayout::LabelRole, StatsForm_PCPercentLbl);
 
         StatsForm_PCPercent = new QLabel(StatsForm_PCStats);
-        StatsForm_PCPercent->setObjectName(QStringLiteral("StatsForm_PCPercent"));
+        StatsForm_PCPercent->setObjectName(QString::fromUtf8("StatsForm_PCPercent"));
 
         formLayout_4->setWidget(4, QFormLayout::FieldRole, StatsForm_PCPercent);
 
@@ -301,69 +300,69 @@ public:
         horizontalLayout_2->addWidget(StatsForm_PCStats);
 
         StatsForm_PS4Stats = new QGroupBox(BacklogManagerForm_StatsGroup);
-        StatsForm_PS4Stats->setObjectName(QStringLiteral("StatsForm_PS4Stats"));
+        StatsForm_PS4Stats->setObjectName(QString::fromUtf8("StatsForm_PS4Stats"));
         StatsForm_PS4Stats->setFont(font1);
         formLayout_3 = new QFormLayout(StatsForm_PS4Stats);
         formLayout_3->setSpacing(6);
         formLayout_3->setContentsMargins(11, 11, 11, 11);
-        formLayout_3->setObjectName(QStringLiteral("formLayout_3"));
+        formLayout_3->setObjectName(QString::fromUtf8("formLayout_3"));
         StatsForm_PS4NotPlayedLbl = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4NotPlayedLbl->setObjectName(QStringLiteral("StatsForm_PS4NotPlayedLbl"));
+        StatsForm_PS4NotPlayedLbl->setObjectName(QString::fromUtf8("StatsForm_PS4NotPlayedLbl"));
         StatsForm_PS4NotPlayedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PS4NotPlayedLbl->setFont(font1);
 
         formLayout_3->setWidget(0, QFormLayout::LabelRole, StatsForm_PS4NotPlayedLbl);
 
         StatsForm_PS4NotPlayed = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4NotPlayed->setObjectName(QStringLiteral("StatsForm_PS4NotPlayed"));
+        StatsForm_PS4NotPlayed->setObjectName(QString::fromUtf8("StatsForm_PS4NotPlayed"));
 
         formLayout_3->setWidget(0, QFormLayout::FieldRole, StatsForm_PS4NotPlayed);
 
         StatsForm_PS4PlayedLbl = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4PlayedLbl->setObjectName(QStringLiteral("StatsForm_PS4PlayedLbl"));
+        StatsForm_PS4PlayedLbl->setObjectName(QString::fromUtf8("StatsForm_PS4PlayedLbl"));
         StatsForm_PS4PlayedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PS4PlayedLbl->setFont(font1);
 
         formLayout_3->setWidget(1, QFormLayout::LabelRole, StatsForm_PS4PlayedLbl);
 
         StatsForm_PS4Played = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4Played->setObjectName(QStringLiteral("StatsForm_PS4Played"));
+        StatsForm_PS4Played->setObjectName(QString::fromUtf8("StatsForm_PS4Played"));
 
         formLayout_3->setWidget(1, QFormLayout::FieldRole, StatsForm_PS4Played);
 
         StatsForm_PS4CompleteLbl = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4CompleteLbl->setObjectName(QStringLiteral("StatsForm_PS4CompleteLbl"));
+        StatsForm_PS4CompleteLbl->setObjectName(QString::fromUtf8("StatsForm_PS4CompleteLbl"));
         StatsForm_PS4CompleteLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PS4CompleteLbl->setFont(font1);
 
         formLayout_3->setWidget(2, QFormLayout::LabelRole, StatsForm_PS4CompleteLbl);
 
         StatsForm_PS4Complete = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4Complete->setObjectName(QStringLiteral("StatsForm_PS4Complete"));
+        StatsForm_PS4Complete->setObjectName(QString::fromUtf8("StatsForm_PS4Complete"));
 
         formLayout_3->setWidget(2, QFormLayout::FieldRole, StatsForm_PS4Complete);
 
         StatsForm_PS4AbandonedLbl = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4AbandonedLbl->setObjectName(QStringLiteral("StatsForm_PS4AbandonedLbl"));
+        StatsForm_PS4AbandonedLbl->setObjectName(QString::fromUtf8("StatsForm_PS4AbandonedLbl"));
         StatsForm_PS4AbandonedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PS4AbandonedLbl->setFont(font1);
 
         formLayout_3->setWidget(3, QFormLayout::LabelRole, StatsForm_PS4AbandonedLbl);
 
         StatsForm_PS4Abandoned = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4Abandoned->setObjectName(QStringLiteral("StatsForm_PS4Abandoned"));
+        StatsForm_PS4Abandoned->setObjectName(QString::fromUtf8("StatsForm_PS4Abandoned"));
 
         formLayout_3->setWidget(3, QFormLayout::FieldRole, StatsForm_PS4Abandoned);
 
         StatsForm_PS4PercentLbl = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4PercentLbl->setObjectName(QStringLiteral("StatsForm_PS4PercentLbl"));
+        StatsForm_PS4PercentLbl->setObjectName(QString::fromUtf8("StatsForm_PS4PercentLbl"));
         StatsForm_PS4PercentLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PS4PercentLbl->setFont(font1);
 
         formLayout_3->setWidget(4, QFormLayout::LabelRole, StatsForm_PS4PercentLbl);
 
         StatsForm_PS4Percent = new QLabel(StatsForm_PS4Stats);
-        StatsForm_PS4Percent->setObjectName(QStringLiteral("StatsForm_PS4Percent"));
+        StatsForm_PS4Percent->setObjectName(QString::fromUtf8("StatsForm_PS4Percent"));
 
         formLayout_3->setWidget(4, QFormLayout::FieldRole, StatsForm_PS4Percent);
 
@@ -371,69 +370,69 @@ public:
         horizontalLayout_2->addWidget(StatsForm_PS4Stats);
 
         StatsForm_PS3Stats = new QGroupBox(BacklogManagerForm_StatsGroup);
-        StatsForm_PS3Stats->setObjectName(QStringLiteral("StatsForm_PS3Stats"));
+        StatsForm_PS3Stats->setObjectName(QString::fromUtf8("StatsForm_PS3Stats"));
         StatsForm_PS3Stats->setFont(font1);
         formLayout_2 = new QFormLayout(StatsForm_PS3Stats);
         formLayout_2->setSpacing(6);
         formLayout_2->setContentsMargins(11, 11, 11, 11);
-        formLayout_2->setObjectName(QStringLiteral("formLayout_2"));
+        formLayout_2->setObjectName(QString::fromUtf8("formLayout_2"));
         StatsForm_PS3NotPlayedLbl = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3NotPlayedLbl->setObjectName(QStringLiteral("StatsForm_PS3NotPlayedLbl"));
+        StatsForm_PS3NotPlayedLbl->setObjectName(QString::fromUtf8("StatsForm_PS3NotPlayedLbl"));
         StatsForm_PS3NotPlayedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PS3NotPlayedLbl->setFont(font1);
 
         formLayout_2->setWidget(0, QFormLayout::LabelRole, StatsForm_PS3NotPlayedLbl);
 
         StatsForm_PS3NotPlayed = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3NotPlayed->setObjectName(QStringLiteral("StatsForm_PS3NotPlayed"));
+        StatsForm_PS3NotPlayed->setObjectName(QString::fromUtf8("StatsForm_PS3NotPlayed"));
 
         formLayout_2->setWidget(0, QFormLayout::FieldRole, StatsForm_PS3NotPlayed);
 
         StatsForm_PS3PlayedLbl = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3PlayedLbl->setObjectName(QStringLiteral("StatsForm_PS3PlayedLbl"));
+        StatsForm_PS3PlayedLbl->setObjectName(QString::fromUtf8("StatsForm_PS3PlayedLbl"));
         StatsForm_PS3PlayedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PS3PlayedLbl->setFont(font1);
 
         formLayout_2->setWidget(1, QFormLayout::LabelRole, StatsForm_PS3PlayedLbl);
 
         StatsForm_PS3Played = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3Played->setObjectName(QStringLiteral("StatsForm_PS3Played"));
+        StatsForm_PS3Played->setObjectName(QString::fromUtf8("StatsForm_PS3Played"));
 
         formLayout_2->setWidget(1, QFormLayout::FieldRole, StatsForm_PS3Played);
 
         StatsForm_PS3CompleteLbl = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3CompleteLbl->setObjectName(QStringLiteral("StatsForm_PS3CompleteLbl"));
+        StatsForm_PS3CompleteLbl->setObjectName(QString::fromUtf8("StatsForm_PS3CompleteLbl"));
         StatsForm_PS3CompleteLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PS3CompleteLbl->setFont(font1);
 
         formLayout_2->setWidget(2, QFormLayout::LabelRole, StatsForm_PS3CompleteLbl);
 
         StatsForm_PS3Complete = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3Complete->setObjectName(QStringLiteral("StatsForm_PS3Complete"));
+        StatsForm_PS3Complete->setObjectName(QString::fromUtf8("StatsForm_PS3Complete"));
 
         formLayout_2->setWidget(2, QFormLayout::FieldRole, StatsForm_PS3Complete);
 
         StatsForm_PS3AbandonedLbl = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3AbandonedLbl->setObjectName(QStringLiteral("StatsForm_PS3AbandonedLbl"));
+        StatsForm_PS3AbandonedLbl->setObjectName(QString::fromUtf8("StatsForm_PS3AbandonedLbl"));
         StatsForm_PS3AbandonedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PS3AbandonedLbl->setFont(font1);
 
         formLayout_2->setWidget(3, QFormLayout::LabelRole, StatsForm_PS3AbandonedLbl);
 
         StatsForm_PS3Abandoned = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3Abandoned->setObjectName(QStringLiteral("StatsForm_PS3Abandoned"));
+        StatsForm_PS3Abandoned->setObjectName(QString::fromUtf8("StatsForm_PS3Abandoned"));
 
         formLayout_2->setWidget(3, QFormLayout::FieldRole, StatsForm_PS3Abandoned);
 
         StatsForm_PS3PercentLbl = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3PercentLbl->setObjectName(QStringLiteral("StatsForm_PS3PercentLbl"));
+        StatsForm_PS3PercentLbl->setObjectName(QString::fromUtf8("StatsForm_PS3PercentLbl"));
         StatsForm_PS3PercentLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PS3PercentLbl->setFont(font1);
 
         formLayout_2->setWidget(4, QFormLayout::LabelRole, StatsForm_PS3PercentLbl);
 
         StatsForm_PS3Percent = new QLabel(StatsForm_PS3Stats);
-        StatsForm_PS3Percent->setObjectName(QStringLiteral("StatsForm_PS3Percent"));
+        StatsForm_PS3Percent->setObjectName(QString::fromUtf8("StatsForm_PS3Percent"));
 
         formLayout_2->setWidget(4, QFormLayout::FieldRole, StatsForm_PS3Percent);
 
@@ -441,69 +440,69 @@ public:
         horizontalLayout_2->addWidget(StatsForm_PS3Stats);
 
         StatsForm_PSVitaStats = new QGroupBox(BacklogManagerForm_StatsGroup);
-        StatsForm_PSVitaStats->setObjectName(QStringLiteral("StatsForm_PSVitaStats"));
+        StatsForm_PSVitaStats->setObjectName(QString::fromUtf8("StatsForm_PSVitaStats"));
         StatsForm_PSVitaStats->setFont(font1);
         formLayout = new QFormLayout(StatsForm_PSVitaStats);
         formLayout->setSpacing(6);
         formLayout->setContentsMargins(11, 11, 11, 11);
-        formLayout->setObjectName(QStringLiteral("formLayout"));
+        formLayout->setObjectName(QString::fromUtf8("formLayout"));
         StatsForm_PSVitaNotPlayedLbl = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaNotPlayedLbl->setObjectName(QStringLiteral("StatsForm_PSVitaNotPlayedLbl"));
+        StatsForm_PSVitaNotPlayedLbl->setObjectName(QString::fromUtf8("StatsForm_PSVitaNotPlayedLbl"));
         StatsForm_PSVitaNotPlayedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PSVitaNotPlayedLbl->setFont(font1);
 
         formLayout->setWidget(0, QFormLayout::LabelRole, StatsForm_PSVitaNotPlayedLbl);
 
         StatsForm_PSVitaNotPlayed = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaNotPlayed->setObjectName(QStringLiteral("StatsForm_PSVitaNotPlayed"));
+        StatsForm_PSVitaNotPlayed->setObjectName(QString::fromUtf8("StatsForm_PSVitaNotPlayed"));
 
         formLayout->setWidget(0, QFormLayout::FieldRole, StatsForm_PSVitaNotPlayed);
 
         StatsForm_PSVitaPlayedLbl = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaPlayedLbl->setObjectName(QStringLiteral("StatsForm_PSVitaPlayedLbl"));
+        StatsForm_PSVitaPlayedLbl->setObjectName(QString::fromUtf8("StatsForm_PSVitaPlayedLbl"));
         StatsForm_PSVitaPlayedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PSVitaPlayedLbl->setFont(font1);
 
         formLayout->setWidget(1, QFormLayout::LabelRole, StatsForm_PSVitaPlayedLbl);
 
         StatsForm_PSVitaPlayed = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaPlayed->setObjectName(QStringLiteral("StatsForm_PSVitaPlayed"));
+        StatsForm_PSVitaPlayed->setObjectName(QString::fromUtf8("StatsForm_PSVitaPlayed"));
 
         formLayout->setWidget(1, QFormLayout::FieldRole, StatsForm_PSVitaPlayed);
 
         StatsForm_PSVitaCompleteLbl = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaCompleteLbl->setObjectName(QStringLiteral("StatsForm_PSVitaCompleteLbl"));
+        StatsForm_PSVitaCompleteLbl->setObjectName(QString::fromUtf8("StatsForm_PSVitaCompleteLbl"));
         StatsForm_PSVitaCompleteLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PSVitaCompleteLbl->setFont(font1);
 
         formLayout->setWidget(2, QFormLayout::LabelRole, StatsForm_PSVitaCompleteLbl);
 
         StatsForm_PSVitaComplete = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaComplete->setObjectName(QStringLiteral("StatsForm_PSVitaComplete"));
+        StatsForm_PSVitaComplete->setObjectName(QString::fromUtf8("StatsForm_PSVitaComplete"));
 
         formLayout->setWidget(2, QFormLayout::FieldRole, StatsForm_PSVitaComplete);
 
         StatsForm_PSVitaAbandonedLbl = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaAbandonedLbl->setObjectName(QStringLiteral("StatsForm_PSVitaAbandonedLbl"));
+        StatsForm_PSVitaAbandonedLbl->setObjectName(QString::fromUtf8("StatsForm_PSVitaAbandonedLbl"));
         StatsForm_PSVitaAbandonedLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PSVitaAbandonedLbl->setFont(font1);
 
         formLayout->setWidget(3, QFormLayout::LabelRole, StatsForm_PSVitaAbandonedLbl);
 
         StatsForm_PSVitaAbandoned = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaAbandoned->setObjectName(QStringLiteral("StatsForm_PSVitaAbandoned"));
+        StatsForm_PSVitaAbandoned->setObjectName(QString::fromUtf8("StatsForm_PSVitaAbandoned"));
 
         formLayout->setWidget(3, QFormLayout::FieldRole, StatsForm_PSVitaAbandoned);
 
         StatsForm_PSVitaPercentLbl = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaPercentLbl->setObjectName(QStringLiteral("StatsForm_PSVitaPercentLbl"));
+        StatsForm_PSVitaPercentLbl->setObjectName(QString::fromUtf8("StatsForm_PSVitaPercentLbl"));
         StatsForm_PSVitaPercentLbl->setMinimumSize(QSize(121, 21));
         StatsForm_PSVitaPercentLbl->setFont(font1);
 
         formLayout->setWidget(4, QFormLayout::LabelRole, StatsForm_PSVitaPercentLbl);
 
         StatsForm_PSVitaPercent = new QLabel(StatsForm_PSVitaStats);
-        StatsForm_PSVitaPercent->setObjectName(QStringLiteral("StatsForm_PSVitaPercent"));
+        StatsForm_PSVitaPercent->setObjectName(QString::fromUtf8("StatsForm_PSVitaPercent"));
 
         formLayout->setWidget(4, QFormLayout::FieldRole, StatsForm_PSVitaPercent);
 
@@ -514,11 +513,11 @@ public:
         verticalLayout->addWidget(BacklogManagerForm_StatsGroup);
 
         BacklogManagerForm_GameListGroup = new QGroupBox(centralWidget);
-        BacklogManagerForm_GameListGroup->setObjectName(QStringLiteral("BacklogManagerForm_GameListGroup"));
+        BacklogManagerForm_GameListGroup->setObjectName(QString::fromUtf8("BacklogManagerForm_GameListGroup"));
         horizontalLayout = new QHBoxLayout(BacklogManagerForm_GameListGroup);
         horizontalLayout->setSpacing(6);
         horizontalLayout->setContentsMargins(11, 11, 11, 11);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         BacklogManagerForm_GameList = new QTableWidget(BacklogManagerForm_GameListGroup);
         if (BacklogManagerForm_GameList->columnCount() < 5)
             BacklogManagerForm_GameList->setColumnCount(5);
@@ -532,7 +531,7 @@ public:
         BacklogManagerForm_GameList->setHorizontalHeaderItem(3, __qtablewidgetitem3);
         QTableWidgetItem *__qtablewidgetitem4 = new QTableWidgetItem();
         BacklogManagerForm_GameList->setHorizontalHeaderItem(4, __qtablewidgetitem4);
-        BacklogManagerForm_GameList->setObjectName(QStringLiteral("BacklogManagerForm_GameList"));
+        BacklogManagerForm_GameList->setObjectName(QString::fromUtf8("BacklogManagerForm_GameList"));
         BacklogManagerForm_GameList->setContextMenuPolicy(Qt::ActionsContextMenu);
         BacklogManagerForm_GameList->setEditTriggers(QAbstractItemView::NoEditTriggers);
         BacklogManagerForm_GameList->setSelectionMode(QAbstractItemView::ExtendedSelection);
@@ -549,24 +548,24 @@ public:
 
         BacklogManagerForm->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(BacklogManagerForm);
-        menuBar->setObjectName(QStringLiteral("menuBar"));
+        menuBar->setObjectName(QString::fromUtf8("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 831, 21));
         menuBar->setToolTipDuration(1);
         menuFile = new QMenu(menuBar);
-        menuFile->setObjectName(QStringLiteral("menuFile"));
+        menuFile->setObjectName(QString::fromUtf8("menuFile"));
         menuFilters = new QMenu(menuBar);
-        menuFilters->setObjectName(QStringLiteral("menuFilters"));
+        menuFilters->setObjectName(QString::fromUtf8("menuFilters"));
         menuPlayed_Status = new QMenu(menuFilters);
-        menuPlayed_Status->setObjectName(QStringLiteral("menuPlayed_Status"));
+        menuPlayed_Status->setObjectName(QString::fromUtf8("menuPlayed_Status"));
         menuPlatform = new QMenu(menuFilters);
-        menuPlatform->setObjectName(QStringLiteral("menuPlatform"));
+        menuPlatform->setObjectName(QString::fromUtf8("menuPlatform"));
         menuOwned_Status = new QMenu(menuFilters);
-        menuOwned_Status->setObjectName(QStringLiteral("menuOwned_Status"));
+        menuOwned_Status->setObjectName(QString::fromUtf8("menuOwned_Status"));
         menuHelp = new QMenu(menuBar);
-        menuHelp->setObjectName(QStringLiteral("menuHelp"));
+        menuHelp->setObjectName(QString::fromUtf8("menuHelp"));
         BacklogManagerForm->setMenuBar(menuBar);
         toolBar = new QToolBar(BacklogManagerForm);
-        toolBar->setObjectName(QStringLiteral("toolBar"));
+        toolBar->setObjectName(QString::fromUtf8("toolBar"));
         BacklogManagerForm->addToolBar(Qt::TopToolBarArea, toolBar);
 
         menuBar->addAction(menuFile->menuAction());

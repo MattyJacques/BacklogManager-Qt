@@ -116,7 +116,7 @@
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
-        <widget class="QGroupBox" name="StatsForm_PCStats">
+        <widget class="QGroupBox" name="BacklogManagerForm_PCStats">
          <property name="font">
           <font>
            <pointsize>10</pointsize>
@@ -127,7 +127,7 @@
          </property>
          <layout class="QFormLayout" name="formLayout_4">
           <item row="0" column="0">
-           <widget class="QLabel" name="StatsForm_PCNotPlayedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PCNotPlayedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -145,14 +145,14 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QLabel" name="StatsForm_PCNotPlayed">
+           <widget class="QLabel" name="BacklogManagerForm_PCNotPlayed">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="QLabel" name="StatsForm_PCPlayedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PCPlayedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -170,14 +170,14 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QLabel" name="StatsForm_PCPlayed">
+           <widget class="QLabel" name="BacklogManagerForm_PCPlayed">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="2" column="0">
-           <widget class="QLabel" name="StatsForm_PCCompleteLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PCCompleteLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -195,14 +195,14 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QLabel" name="StatsForm_PCComplete">
+           <widget class="QLabel" name="BacklogManagerForm_PCComplete">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="3" column="0">
-           <widget class="QLabel" name="StatsForm_PCAbandonedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PCAbandonedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -220,14 +220,14 @@
            </widget>
           </item>
           <item row="3" column="1">
-           <widget class="QLabel" name="StatsForm_PCAbandoned">
+           <widget class="QLabel" name="BacklogManagerForm_PCAbandoned">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="4" column="0">
-           <widget class="QLabel" name="StatsForm_PCPercentLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PCPercentLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -245,7 +245,7 @@
            </widget>
           </item>
           <item row="4" column="1">
-           <widget class="QLabel" name="StatsForm_PCPercent">
+           <widget class="QLabel" name="BacklogManagerForm_PCPercent">
             <property name="text">
              <string>Empty</string>
             </property>
@@ -255,7 +255,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QGroupBox" name="StatsForm_PS4Stats">
+        <widget class="QGroupBox" name="BacklogManagerForm_PS4Stats">
          <property name="font">
           <font>
            <pointsize>10</pointsize>
@@ -266,7 +266,7 @@
          </property>
          <layout class="QFormLayout" name="formLayout_3">
           <item row="0" column="0">
-           <widget class="QLabel" name="StatsForm_PS4NotPlayedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PS4NotPlayedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -284,14 +284,14 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QLabel" name="StatsForm_PS4NotPlayed">
+           <widget class="QLabel" name="BacklogManagerForm_PS4NotPlayed">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="QLabel" name="StatsForm_PS4PlayedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PS4PlayedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -309,14 +309,14 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QLabel" name="StatsForm_PS4Played">
+           <widget class="QLabel" name="BacklogManagerForm_PS4Played">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="2" column="0">
-           <widget class="QLabel" name="StatsForm_PS4CompleteLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PS4CompleteLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -334,14 +334,14 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QLabel" name="StatsForm_PS4Complete">
+           <widget class="QLabel" name="BacklogManagerForm_PS4Complete">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="3" column="0">
-           <widget class="QLabel" name="StatsForm_PS4AbandonedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PS4AbandonedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -359,14 +359,14 @@
            </widget>
           </item>
           <item row="3" column="1">
-           <widget class="QLabel" name="StatsForm_PS4Abandoned">
+           <widget class="QLabel" name="BacklogManagerForm_PS4Abandoned">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="4" column="0">
-           <widget class="QLabel" name="StatsForm_PS4PercentLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PS4PercentLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -384,7 +384,7 @@
            </widget>
           </item>
           <item row="4" column="1">
-           <widget class="QLabel" name="StatsForm_PS4Percent">
+           <widget class="QLabel" name="BacklogManagerForm_PS4Percent">
             <property name="text">
              <string>Empty</string>
             </property>
@@ -394,7 +394,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QGroupBox" name="StatsForm_PS3Stats">
+        <widget class="QGroupBox" name="BacklogManagerForm_PS3Stats">
          <property name="font">
           <font>
            <pointsize>10</pointsize>
@@ -405,7 +405,7 @@
          </property>
          <layout class="QFormLayout" name="formLayout_2">
           <item row="0" column="0">
-           <widget class="QLabel" name="StatsForm_PS3NotPlayedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PS3NotPlayedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -423,14 +423,14 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QLabel" name="StatsForm_PS3NotPlayed">
+           <widget class="QLabel" name="BacklogManagerForm_PS3NotPlayed">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="QLabel" name="StatsForm_PS3PlayedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PS3PlayedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -448,14 +448,14 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QLabel" name="StatsForm_PS3Played">
+           <widget class="QLabel" name="BacklogManagerForm_PS3Played">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="2" column="0">
-           <widget class="QLabel" name="StatsForm_PS3CompleteLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PS3CompleteLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -473,14 +473,14 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QLabel" name="StatsForm_PS3Complete">
+           <widget class="QLabel" name="BacklogManagerForm_PS3Complete">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="3" column="0">
-           <widget class="QLabel" name="StatsForm_PS3AbandonedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PS3AbandonedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -498,14 +498,14 @@
            </widget>
           </item>
           <item row="3" column="1">
-           <widget class="QLabel" name="StatsForm_PS3Abandoned">
+           <widget class="QLabel" name="BacklogManagerForm_PS3Abandoned">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="4" column="0">
-           <widget class="QLabel" name="StatsForm_PS3PercentLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PS3PercentLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -523,7 +523,7 @@
            </widget>
           </item>
           <item row="4" column="1">
-           <widget class="QLabel" name="StatsForm_PS3Percent">
+           <widget class="QLabel" name="BacklogManagerForm_PS3Percent">
             <property name="text">
              <string>Empty</string>
             </property>
@@ -533,7 +533,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QGroupBox" name="StatsForm_PSVitaStats">
+        <widget class="QGroupBox" name="BacklogManagerForm_PSVitaStats">
          <property name="font">
           <font>
            <pointsize>10</pointsize>
@@ -544,7 +544,7 @@
          </property>
          <layout class="QFormLayout" name="formLayout">
           <item row="0" column="0">
-           <widget class="QLabel" name="StatsForm_PSVitaNotPlayedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PSVitaNotPlayedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -562,14 +562,14 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QLabel" name="StatsForm_PSVitaNotPlayed">
+           <widget class="QLabel" name="BacklogManagerForm_PSVitaNotPlayed">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="QLabel" name="StatsForm_PSVitaPlayedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PSVitaPlayedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -587,14 +587,14 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QLabel" name="StatsForm_PSVitaPlayed">
+           <widget class="QLabel" name="BacklogManagerForm_PSVitaPlayed">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="2" column="0">
-           <widget class="QLabel" name="StatsForm_PSVitaCompleteLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PSVitaCompleteLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -612,14 +612,14 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QLabel" name="StatsForm_PSVitaComplete">
+           <widget class="QLabel" name="BacklogManagerForm_PSVitaComplete">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="3" column="0">
-           <widget class="QLabel" name="StatsForm_PSVitaAbandonedLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PSVitaAbandonedLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -637,14 +637,14 @@
            </widget>
           </item>
           <item row="3" column="1">
-           <widget class="QLabel" name="StatsForm_PSVitaAbandoned">
+           <widget class="QLabel" name="BacklogManagerForm_PSVitaAbandoned">
             <property name="text">
              <string>Empty</string>
             </property>
            </widget>
           </item>
           <item row="4" column="0">
-           <widget class="QLabel" name="StatsForm_PSVitaPercentLbl">
+           <widget class="QLabel" name="BacklogManagerForm_PSVitaPercentLbl">
             <property name="minimumSize">
              <size>
               <width>121</width>
@@ -662,7 +662,7 @@
            </widget>
           </item>
           <item row="4" column="1">
-           <widget class="QLabel" name="StatsForm_PSVitaPercent">
+           <widget class="QLabel" name="BacklogManagerForm_PSVitaPercent">
             <property name="text">
              <string>Empty</string>
             </property>

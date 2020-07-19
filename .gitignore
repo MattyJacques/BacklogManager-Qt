@@ -116,3 +116,4 @@ x64/Debug/BacklogManager.vcxproj.FileListAbsolute.txt
 *.idx
 
 *.filters
+Source/UI/GeneratedFiles/*

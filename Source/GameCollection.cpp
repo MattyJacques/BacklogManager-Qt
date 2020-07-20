@@ -544,10 +544,6 @@ bool GameCollection::CheckPlatformFilter(const Game& a_Game) const
     if (m_ShowPSVita)
       result |= m_ShowPSVita->isChecked();
   }
-  if (m_ShowPC && m_ShowPS4 && m_ShowPS3 && m_ShowPSVita)
-  {
-    result = true;
-  }
   
   return result;
 

@@ -1,11 +1,3 @@
-//==============================================================================
-//
-// Title: BacklogManager.cpp
-// Description: Implementation for the main window
-//
-//==============================================================================
-
-
 #include <QObject>                     // qobject_cast
 #include <QtGlobal>                    // Overload in connect
 #include <QFileDialog>                 // Find CSV file
